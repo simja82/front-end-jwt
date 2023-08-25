@@ -1,0 +1,38 @@
+    <!-- Modal Create Thanks -->
+    <div class="modal fade" id="createThanksModal" aria-hidden="true" aria-labelledby="createThanksModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="createThanksModal">Crear Agradecimiento</h1>
+                    <i class="fa-solid fa-rotate-left" data-bs-target="#creditsModal" data-bs-toggle="modal" aria-label="Volver" (click)="onReset()"></i>
+                </div>
+                <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                    <div class="form-group">                    
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="to_thank" class="form-label">{{forms[13].value}}</label>
+                                    <input type="text" class="form-control" id="to_thank" placeholder="Destinatario" formControlName="to_thank" [ngClass]="{ 'is-invalid': submitted && f['to_thank'].errors, 'is-valid': !f['to_thank'].errors && f['to_thank'].touched }">
+                                    <div id="toHelp" class="form-text">{{helpers[13].value}}</div>
+                                    <div *ngIf="submitted && f['to_thank'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['to_thank'].errors['required']">Es preciso ingresar un destinatario</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <label for="thanks" class="form-label">{{forms[14].value}}</label>
+                                    <input type="text" class="form-control" id="thanks" placeholder="Agradecimiento" formControlName="thanks" [ngClass]="{ 'is-invalid': submitted && f['thanks'].errors, 'is-valid': !f['thanks'].errors && f['thanks'].touched }">
+                                    <div id="thanksHelp" class="form-text">{{helpers[14].value}}</div>
+                                    <div *ngIf="submitted && f['thanks'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['thanks'].errors['required']">Es preciso ingresar un agradecimiento</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                    
+                        <div class="modal-footer">
+                            <button class="btn btn-black-mini" data-bs-target="#creditsModal" data-bs-toggle="modal" aria-label="Volver">{{buttons[11].value}}</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>

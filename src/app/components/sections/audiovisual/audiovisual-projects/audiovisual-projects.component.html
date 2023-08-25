@@ -1,0 +1,33 @@
+<section class="projects d-flex justify-content-center">
+    <div class="container">
+        <h3 class="d-flex justify-content-center"><span class="text-orange text-center mb-3"> {{projects_intro.title}}</span></h3>                                    
+        <h6 class="w-75 text-center m-auto mb-2">
+            {{projects_intro.line_one}}  
+            <br><br>
+            {{projects_intro.line_two}} 
+            <br><br>
+            {{projects_intro.line_three}}
+        </h6>
+        <div class="container mt-2 pt-5 pb-2 w-75 m-auto d-flex justify-content-between">
+            <div class="col-4 text-center">
+                <a routerLink="/audiovisual/projects">
+                    <i [class]="projects_intro.icon_series" class="fa-3x mb-3"></i>
+                    <h4>{{projects_intro.series}}</h4>
+                </a>
+            </div>
+            <div class="col-4 text-center">
+                <a routerLink="/audiovisual/projects">
+                    <i [class]="projects_intro.icon_longshots" class="fa-3x mb-3"></i>
+                    <h4>{{projects_intro.longshots}}</h4>
+                </a>
+            </div>
+            <div class="col-4 text-center">
+                <a routerLink="/audiovisual/projects">
+                    <i [class]="projects_intro.icon_others" class="fa-3x mb-3"></i>
+                    <h4>{{projects_intro.others}}</h4>
+                </a>
+            </div>
+        </div>   
+        <h5 class="w-75 text-center m-auto mt-5 pt-3 mb-3">{{projects_intro.one_samples}}<a routerLink="/audiovisual/samples"><strong>{{projects_intro.two_samples}}</strong></a>{{projects_intro.three_samples}}</h5>
+    </div>
+</section>

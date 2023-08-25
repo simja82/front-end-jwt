@@ -1,0 +1,1949 @@
+{
+    "brand" :
+    {
+        "image" : "https://images.pexels.com/photos/15435769/pexels-photo-15435769.png",
+        "alt" : "Logo de Argentina Programa"
+    },
+    "login" :
+    {
+        "title" : "Login",
+        "image" : "https://i.ibb.co/z5Ynqvh/login.jpg",
+        "description" : "Llave antigua sobre teclado de computadora"        
+    },
+    "banners" :
+    [
+        {
+            "id" : 1,
+            "banner" : "Index",
+            "image" : "https://i.ibb.co/sP8hFWX/index.jpg",
+            "description" : "Cámara Canon - Efecto Droste",
+            "hero" : "Hola!!!",
+            "subhero" : "Me ves?",
+            "alt" : "",
+            "title" : ""
+        },
+        {
+            "id" : 2,
+            "banner" : "Intro",
+            "image" : "https://i.ibb.co/MDJPmXs/intro.jpg",
+            "description" : "Bifurcación de vías de tren",
+            "hero" : "Llegaste!!!",
+            "subhero" : "Te invito a recorrer mi historia de acuerdo a como te interese conocerme... Te animás?",
+            "alt" : "",
+            "title" : ""
+        },
+        {
+            "id" : 3,
+            "banner" : "Error",
+            "image" : "https://i.ibb.co/DRsGvBG/error.png",
+            "description" : "Robot de piezas recicladas",
+            "hero" : "Oops!!!",
+            "subhero":"Algo no salió bien...",
+            "alt" : "",
+            "title" : ""
+        },
+        {
+            "id" : 4,
+            "banner" : "Register",
+            "image" : "https://i.ibb.co/rHd3Hgt/register.jpg",
+            "description" : "Señal artesanal de orientación",
+            "hero" : "Próximamente",
+            "subhero" : "Vas a poder registrarte y hacer uso de varios servicios disponibles...",
+            "alt" : "",
+            "title" : ""
+        },
+        {
+            "id" : 5,
+            "banner" : "Links",
+            "image" : "https://i.ibb.co/JR1q02h/links.jpg",
+            "description" : "Ruta cruzando un bosque",
+            "hero" : "Epa...",
+            "subhero" :"Parece que encontraste un atajo... Adonde te gustaría ir?",
+            "alt" : "",
+            "title" : ""
+        },
+        {
+            "id" : 6,
+            "banner" : "Plus",
+            "image" : "https://i.ibb.co/tPk0dMj/plus.jpg",
+            "description" : "Hojas de papel con leyenda 'I can do anything not everything'",
+            "hero" :"¿Le diste click al ícono de más?",
+            "subhero" :"Escribime y dejame saber qué puedo ofrecerte...",
+            "alt" : "",
+            "title" : ""
+        }
+    ],
+    "buttons" :
+    [
+        {
+            "id" : 1,
+            "value" : "Entrar" 
+        },
+        {
+            "id" : 2,
+            "value" : "Volver" 
+        },
+        {
+            "id" : 3,
+            "value" : "Proyectos" 
+        },
+        {
+            "id" : 4,
+            "value" : "Muestras" 
+        },
+        {
+            "id" : 5,
+            "value" : "Data" 
+        },
+        {
+            "id" : 6,
+            "value" : "Audiovisual" 
+        },
+        {
+            "id" : 7,
+            "value" : "Developer" 
+        },
+        {
+            "id" : 8,
+            "value" : "Cerrar" 
+        },
+        {
+            "id" : 9,
+            "value" : "Mensaje" 
+        },
+        {
+            "id" : 10,
+            "value" : "Logout" 
+        },
+        {
+            "id" : 11,
+            "value" : "Cancelar" 
+        },
+        {
+            "id" : 12,
+            "value" : "Guardar" 
+        },
+        {
+            "id" : 13,
+            "value" : "Eliminar" 
+        },
+        {
+            "id" : 14,
+            "value" : "Actualizar" 
+        },
+        {
+            "id" : 15,
+            "value" : "Enviar"
+        },
+        {
+            "id" : 16,
+            "value" : "Registrarme"
+        }        
+    ],
+    "links" :
+    {
+        "links_one" : "En Proyectos vas a poder ver mis Proyectos, ",
+        "links_two" : "en Muestras descargar archivos que son parte de Proyectos ",
+        "links_three" : "y en Data vas a encontrar documentos de Presentación y Muestras ",
+        "links_four" : "-esto es algo así como un CV pero de la Industria Audiovisual-"
+    },
+    "forms" :
+    [
+        {
+            "id" : 1,
+            "value" : "Email"
+        },
+        {
+            "id" : 2,
+            "value" : "Password"
+        },
+        {
+            "id" : 3,
+            "value" : "Ícono"
+        },
+        {
+            "id" : 4,
+            "value" : "Enlace"
+        },
+        {
+            "id" : 5,
+            "value" : "Descripción"
+        },
+        {
+            "id" : 6,
+            "value" : "Hero"
+        },
+        {
+            "id" : 7,
+            "value" : "Subhero"
+        },
+        {
+            "id" : 8,
+            "value" : "Título"
+        },
+        {
+            "id" : 9,
+            "value" : "Subtítulo"
+        },
+        {
+            "id" : 10,
+            "value" : "Basado"
+        },
+        {
+            "id" : 11,
+            "value" : "Año"
+        },
+        {
+            "id" : 12,
+            "value" : "Crédito"
+        },
+        {
+            "id" : 13,
+            "value" : "Nombre y Apellido"
+        },
+        {
+            "id" : 14,
+            "value" : "Destinatario"
+        },
+        {
+            "id" : 15,
+            "value" : "Agradecimiento"
+        },
+        {
+            "id" : 16,
+            "value" : "Autor"
+        },
+        {
+            "id" : 17,
+            "value" : "Pista"
+        },
+        {
+            "id" : 18,
+            "value" : "Línea"
+        },
+        {
+            "id" : 19,
+            "value" : "Uno"
+        },
+        {
+            "id" : 20,
+            "value" : "Dos"
+        },
+        {
+            "id" : 21,
+            "value" : "Tres"
+        },
+        {
+            "id" : 22,
+            "value" : "Cuatro"
+        },
+        {
+            "id" : 23,
+            "value" : "Cinco"
+        },
+        {
+            "id" : 24,
+            "value" : "Blooper"
+        },
+        {
+            "id" : 25,
+            "value" : "Error"
+        },
+        {
+            "id" : 26,
+            "value" : "Cierre"
+        },
+        {
+            "id" : 27,
+            "value" : "Borrador"
+        },
+        {
+            "id" : 28,
+            "value" : "Imagen"
+        },
+        {
+            "id" : 29,
+            "value" : "Frase"
+        },
+        {
+            "id" : 30,
+            "value" : "Intro"
+        },
+        {
+            "id" : 31,
+            "value" : "Minibio"
+        },
+        {
+            "id" : 32,
+            "value" : "My Work"
+        },
+        {
+            "id" : 33,
+            "value" : "I Want"
+        },
+        {
+            "id" : 34,
+            "value" : "Texto"
+        },
+        {
+            "id" : 35,
+            "value" : "Series"
+        },
+        {
+            "id" : 36,
+            "value" : "Longshots"
+        },
+        {
+            "id" : 37,
+            "value" : "Others"
+        },
+        {
+            "id" : 38,
+            "value" : "Seis"
+        },
+        {
+            "id" : 39,
+            "value" : "Siete"
+        },
+        {
+            "id" : 40,
+            "value" : "Párrafo"
+        },
+        {
+            "id" : 41,
+            "value" : "Formato"
+        },
+        {
+            "id" : 42,
+            "value" : "Duración"
+        },
+        {
+            "id" : 43,
+            "value" : "Estado"
+        },
+        {
+            "id" : 44,
+            "value" : "Género"
+        },
+        {
+            "id" : 45,
+            "value" : "Logline"
+        },
+        {
+            "id" : 46,
+            "value" : "Storyline"
+        },
+        {
+            "id" : 47,
+            "value" : "Sinopsis"
+        },
+        {
+            "id" : 48,
+            "value" : "Documento"
+        },
+        {
+            "id" : 49,
+            "value" : "Archivo"
+        },
+        {
+            "id" : 50,
+            "value" : "Feedback"
+        },
+        {
+            "id" : 51,
+            "value" : "Apertura"
+        },
+        {
+            "id" : 52,
+            "value" : "Industria"
+        },
+        {
+            "id" : 53,
+            "value" : "Inicio"
+        },
+        {
+            "id" : 54,
+            "value" : "Fin"
+        },
+        {
+            "id" : 55,
+            "value" : "Institución"
+        },
+        {
+            "id" : 56,
+            "value" : "Puesto"
+        },
+        {
+            "id" : 57,
+            "value" : "Lugar"
+        },
+        {
+            "id" : 58,
+            "value" : "Tarea"
+        },
+        {
+            "id" : 59,
+            "value" : "Skill"
+        },
+        {
+            "id" : 60,
+            "value" : "Porcentaje"
+        },
+        {
+            "id" : 61,
+            "value" : "Idioma"
+        },
+        {
+            "id" : 62,
+            "value" : "Nivel"
+        },
+        {
+            "id" : 63,
+            "value" : "Hobby"
+        },
+        {
+            "id" : 64,
+            "value" : "Representación"
+        },
+        {
+            "id" : 65,
+            "value" : "Teléfono"
+        },
+        {
+            "id" : 66,
+            "value" : "Disponibilidad"
+        },
+        {
+            "id" : 67,
+            "value" : "Usuario"
+        },
+        {
+            "id" : 68,
+            "value" : "Tareas"
+        },
+        {
+            "id" : 69,
+            "value" : "Información"
+        },
+        {
+            "id" : 70,
+            "value" : "Valor"
+        },
+        {
+            "id" : 71,
+            "value" : "Detalle"
+        },
+        {
+            "id" : 72,
+            "value" : "Mensaje"
+        },
+        {
+            "id" : 73,
+            "value" : "Progreso"
+        }        
+    ],
+    "helpers" :
+    [
+        {
+            "id" : 1,
+            "value" : "Tu email no será compartido con nadie jamás."
+        },
+        {
+            "id" : 2,
+            "value" : "Todavía no tenés una cuenta?"
+        },
+        {
+            "id" : 3,
+            "value" : "Ingresar una clase de Fontawesome"
+        },
+        {
+            "id" : 4,
+            "value" : "Ingresar una URL"
+        },
+        {
+            "id" : 5,
+            "value" : "Ingresar una descripción"
+        },
+        {
+            "id" : 7,
+            "value" : "Ingresar un hero"
+        },
+        {
+            "id" : 7,
+            "value" : "Ingresar un subhero"
+        },
+        {
+            "id" : 8,
+            "value" : "Ingresar un título"
+        },
+        {
+            "id" : 9,
+            "value" : "Ingresar un subtítulo"
+        },
+        {
+            "id" : 10,
+            "value" : "Ingresar basamiento"
+        },
+        {
+            "id" : 11,
+            "value" : "Ingresar año"
+        },
+        {
+            "id" : 12,
+            "value" : "Ingresar un crédito"
+        },
+        {
+            "id" : 13,
+            "value" : "Ingresar un nombre"
+        },
+        {
+            "id" : 14,
+            "value" : "Ingresar un destinatario"
+        },
+        {
+            "id" : 15,
+            "value" : "Ingresar un agradecimiento"
+        },
+        {
+            "id" : 16,
+            "value" : "Ingresar un autor"
+        },
+        {
+            "id" : 17,
+            "value" : "Ingresar una pista"
+        },
+        {
+            "id" : 18,
+            "value" : "Ingresar línea"
+        },
+        {
+            "id" : 19,
+            "value" : "Ingresar un blooper"
+        },
+        {
+            "id" : 20,
+            "value" : "Ingresar un error"
+        },
+        {
+            "id" : 21,
+            "value" : "Ingresar un cierre"
+        },
+        {
+            "id" : 22,
+            "value" : "Ingresar una versión"
+        },
+        {
+            "id" : 23,
+            "value" : "Ingresar una imagen"
+        },
+        {
+            "id" : 24,
+            "value" : "Ingresar una frase"
+        },
+        {
+            "id" : 25,
+            "value" : "Máx. 100 caracteres"
+        },
+        {
+            "id" : 26,
+            "value" : "Máx. 150 caracteres"
+        },
+        {
+            "id" : 27,
+            "value" : "Máx. 200 caracteres"
+        },
+        {
+            "id" : 28,
+            "value" : "Máx. 250 caracteres"
+        },
+        {
+            "id" : 29,
+            "value" : "Ingresar un texto de intro"
+        },
+        {
+            "id" : 30,
+            "value" : "Ingresar un texto"
+        },
+        {
+            "id" : 31,
+            "value" : "Ingresar un párrafo"
+        },
+        {
+            "id" : 32,
+            "value" : "Ingresar género"
+        },
+        {
+            "id" : 33,
+            "value" : "Ingresar estado"
+        },
+        {
+            "id" : 34,
+            "value" : "Ingresar formato"
+        },
+        {
+            "id" : 35,
+            "value" : "Ingresar duración"
+        },
+        {
+            "id" : 36,
+            "value" : "Ingresar una Logline"
+        },
+        {
+            "id" : 37,
+            "value" : "Ingresar detalle"
+        },
+        {
+            "id" : 38,
+            "value" : "Ingresar párrafo de Storyline"
+        },
+        {
+            "id" : 39,
+            "value" : "Ingresar párrafo de Sinopsis"
+        },
+        {
+            "id" : 40,
+            "value" : "Ingresar un documento"
+        },
+        {
+            "id" : 41,
+            "value" : "Ingresar un archivo"
+        },
+        {
+            "id" : 42,
+            "value" : "Ingresar el nombre completo"
+        },
+        {
+            "id" : 43,
+            "value" : "Ingresar el feedback"
+        },
+        {
+            "id" : 44,
+            "value" : "Ingresar una apertura"
+        },
+        {
+            "id" : 45,
+            "value" : "Ingresar una industria"
+        },
+        {
+            "id" : 46,
+            "value" : "Ingresar una línea de texto"
+        },
+        {
+            "id" : 47,
+            "value" : "Ingresar una fecha de inicio"
+        },
+        {
+            "id" : 48,
+            "value" : "Ingresar una fecha de finalización"
+        },
+        {
+            "id" : 49,
+            "value" : "Ingresar una Institución"
+        },
+        {
+            "id" : 50,
+            "value" : "Ingresar un puesto"
+        },
+        {
+            "id" : 51,
+            "value" : "Ingresar un lugar"
+        },
+        {
+            "id" : 52,
+            "value" : "Ingresar una tarea"
+        },
+        {
+            "id" : 53,
+            "value" : "Ingresar una habilidad"
+        },
+        {
+            "id" : 54,
+            "value" : "Ingresar el porcentaje"
+        },
+        {
+            "id" : 55,
+            "value" : "Ingresar un idioma"
+        },
+        {
+            "id" : 56,
+            "value" : "Ingresar el nivel"
+        },
+        {
+            "id" : 57,
+            "value" : "Ingresar un hobby"
+        },
+        {
+            "id" : 58,
+            "value" : "Ingresar una representación"
+        },
+        {
+            "id" : 59,
+            "value" : "Ingresar un número de teléfono"
+        },
+        {
+            "id" : 60,
+            "value" : "Ingresar una disponibilidad"
+        },
+        {
+            "id" : 61,
+            "value" : "Ingresar un usuario"
+        },
+        {
+            "id" : 62,
+            "value" : "Ingresar las tareas"
+        },
+        {
+            "id" : 63,
+            "value" : "Ingresar información de contacto"
+        },
+        {
+            "id" : 64,
+            "value" : "Ingresar un valor"
+        },
+        {
+            "id" : 65,
+            "value" : "Ingresar un form"
+        },
+        {
+            "id" : 66,
+            "value" : "Ingresar un mensaje"
+        },
+        {
+            "id" : 67,
+            "value" : "Ingresar el progreso"
+        },
+        {
+            "id" : 68,
+            "value" : "Ya tenés una cuenta?"
+        }
+    ],
+    "social_general" :
+    [
+        {
+            "id" : 1,
+            "icon" : "fa-brands fa-facebook-f",
+            "link" : "https://facebook.com"
+        },
+        {
+            "id" : 2,
+            "icon" : "fa-brands fa-linkedin-in",
+            "link" : "https://linkedin.com"
+        },
+        {
+            "id" : 3,
+            "icon" : "fa-brands fa-twitter",
+            "link" : "https://twitter.com"
+        },
+        {
+            "id" : 4,
+            "icon" : "fa-brands fa-instagram",
+            "link" : "https://instagram.com"
+        }
+    ],
+    "social_audiovisual" :
+    [
+        {
+            "id" : 1,
+            "icon" : "fa-brands fa-imdb",
+            "link" : "https://www.imdb.com"
+        },
+        {
+            "id" : 2,
+            "icon" : "fa-brands fa-twitter",
+            "link" : "https://www.twitter.com"
+        },
+        {
+            "id" : 3,
+            "icon" : "fa-brands fa-facebook-f",
+            "link" : "https://www.facebook.com"
+        },
+        {
+            "id" : 4,
+            "icon" : "fa-brands fa-linkedin-in",
+            "link" : "https://www.linkedin.com"
+        }
+    ],
+    "social_developer" :
+    [
+        {
+            "id" : 1,
+            "icon" : "fa-brands fa-github",
+            "link" : "https://github.com"
+        },
+        {
+            "id" : 2,
+            "icon" : "fa-brands fa-codepen",
+            "link" : "https://codepen.com"
+        },
+        {
+            "id" : 3,
+            "icon" : "fa-brands fa-linkedin-in",
+            "link" : "https://linkedin.com"
+        },
+        {
+            "id" : 4,
+            "icon" : "fa-brands fa-instagram",
+            "link" : "https://instagram.com"
+        }
+    ],
+    "cover" :
+    {
+        "title" : "Point of View",
+        "based" : "basado en una historia real",
+        "draft" : "Primer Borrador",
+        "to_visitors" : "AL VISITANTE"
+    },
+    "divisors" :
+    [
+        {
+            "id" : 1,
+            "title" : "Divisor Uno",
+            "line_one" : "Y sí, ésta es la historia de mi vida aunque...",
+            "line_two" : "¿Por qué contarla de ésta forma y no como tradicionalmente se cuenta por medio de una \"hoja de vida\" o \"CV\"?",
+            "line_three" : "Un secreto... En la Industria Audiovisual no usamos nada de eso... En general...",
+            "line_four" : "Es cierto que puede haber listados de créditos que se parecen a una \"hoja de vida\" pero, no es lo mismo...",
+            "line_five" : "Entonces, como lo anterior no existe, te invito a recorrer, en los apartados que siguen, un partecita de mi vida dentro de este maravilloso mundo..."
+        },
+        {
+            "id" : 2,
+            "title" : "Divisor Dos",
+            "line_one" : "Es verdaderamente difícil contar acerca de uno mismo...",
+            "line_two" : "Dicen que todos vestimos una máscara y que la cambiamos de acuerdo a frente a quién, o qué, estamos...",
+            "line_three" : "Bueno, quienes somos parte de la Industria Audiovisual nos \"escondemos\" detrás de ellas...",
+            "line_four" : "Para esclarecer esto... Estar de este lado, detrás de nuestro Arte, es más \"seguro\" para nuestros sentimientos, que estar descubiertos...",
+            "line_five" : "Te habrás dado cuenta que no sabés cómo me llamo... ¿O sí?..."
+        },
+        {
+            "id" : 3,
+            "title" : "Divisor Tres",
+            "line_one" : "Otra cosa que, al principio más que nada, es muy difícil, es el mostrar qué hacemos...",
+            "line_two" : "Sucede que en cada parte de Arte que se crea se deja plasmado un poco de uno mismo...",
+            "line_three" : "Indistintamente del género que se elija trabajar, todos, en esta Industria, ponemos mucho de nosotros...",
+            "line_four" : "Y... ¿cómo le explicamos a otro qué sentimos cuando hacemos lo que nos dictan las Musas?",
+            "line_five" : "Todo muy lindo... Cuando ya pasamos por los primeros filtros es un poco más fácil..."
+        },
+        {
+            "id" : 4,
+            "title" : "Divisor Cuatro",
+            "line_one" : "Ahora bien, llegar a poder presentar qué es lo que se hace requiere de muchos factores...",
+            "line_two" : "La primera vez pueden pasar muchas cosas que no siempre son buenas...",
+            "line_three" : "Ya cuando se logra dar con las personas un poco más correctas es más sencillo...",
+            "line_four" : "Eso no quiere decir que se pueda mostrar cualquier cosa... Al contrario...",
+            "line_five" : "A medida que subimos la escalera las exigencias que nos autoimponemos son mayores porque ya no nos debemos solo a nosotros sino a quienes nos respaldan..."
+        },
+        {
+            "id" : 5,
+            "title" : "Divisor Cinco",
+            "line_one" : "No estaría completa mi historia si no te diera algo que puedas llevarte...",
+            "line_two" : "¿Por qué? Bueno, porque la forma de comunicarnos que tenemos en esta Industria es así...",
+            "line_three" : "Llegaste hasta acá, me diste tu tiempo, y por ello te agradezco abriéndote las puertas, solo un poquito, de este espacio en el que estoy...",
+            "line_four" : "Por este Arte que me eligió -o elegí- leo y escribo, vuelvo a leer y vuelvo a escribir, mucho...",
+            "line_five" : "Viajar entre mundos y personajes que, a veces, se vuelven casi personas deja lugar no solo a emociones sino a conocimientos de infinitas dimensiones..."
+        }
+    ],
+    "audiovisual_profile" :
+    {
+        "title" : "Sobre mí",
+        "intro" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "photo" : "https://images.pexels.com/photos/14994568/pexels-photo-14994568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "one" : "\"Si tienes un sueño, debes conservarlo.",
+        "two" : "Si quieres algo sal a buscarlo, y punto.\"",
+        "author" : "Chris Gardner",
+        "credit" : "En busca de la Felicidad"
+    },
+    "audiovisual_presentation" :
+    {
+        "title" : "Presentación",
+        "line_one" : "Antes te conté que no tenemos un CV como tal... así de los tradicionales...",
+        "line_two" : "Para mostrar quiénes somos, en la Industria Audiovisual, se usan documentos...",
+        "line_three" : "En los enlaces pueden verse los míos...",
+        "minibio_icon" : "fa-solid fa-file-lines",
+        "minibio_text" : "Minibio",
+        "mywork_icon" : "fa-solid fa-file",
+        "mywork_text" : "My Work",
+        "iwant_icon" : "fa-solid fa-fire-flame-curved",
+        "iwant_text" : "I Want",
+        "subtitle" : "Por convención tienen nombre en inglés...",
+        "paragraph" : "Y son los únicos que se usan para una presentación..."
+    },
+    "minibio" :
+    {
+        "title" : "Minibio",
+        "paragraph_one" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_two" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_three" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_four" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_five" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_six" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_seven" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "document" : "https://drive.google.com/file/d/1kADhVff8hEwMHqdTRgfroM4-oqwAr0Fl/view?usp=share_link"
+    },
+    "mywork" :
+    {
+        "title" : "My Work",
+        "paragraph_one" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_two" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_three" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_four" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_five" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_six" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_seven" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "document" : "https://drive.google.com/file/d/1XnytooZno2YKjPcCZvj7QfQlgGwhVK9U/view?usp=share_link"
+    },
+    "iwant" :
+    {
+        "title" : "I Want",
+        "paragraph_one" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_two" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_three" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_four" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_five" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_six" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "paragraph_seven" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "document" : "https://drive.google.com/file/d/1xpnXtw560TzRBzJhWb4MaiFitaxqys88/view?usp=share_link"
+    },
+    "projects_intro" :
+    {
+        "title" : "Proyectos",
+        "line_one" : "Esta parte sería una mezcla entre Experiencia Laboral y Conocimientos Técnicos...",
+        "line_two" : "Lo que podés encontrar a continuación es todo producción propia...",
+        "line_three" : "Y está, en este caso, diferenciada por formatos...",
+        "series" : "Series",
+        "icon_series" : "fa-solid fa-display",
+        "longshots" : "Largometrajes",
+        "icon_longshots" : "fa-solid fa-film",
+        "others" : "Otros",
+        "icon_others" : "fa-solid fa-plus",
+        "one_samples" : "Las ",
+        "two_samples" : "muestras de trabajo ",
+        "three_samples" : "también son parte del todo..."
+    },
+    "projects_page" : 
+    {
+        "line_one" : "Me gustaría que conozcas todo lo posible de mí por medio de este pedacito de \"mundo\"",
+        "line_two" : "En la Industria Audiovisual estoy \"above the line\" (soy de los Creativos)", 
+        "line_three" : "En \"des\"orden escribo Guión, hago Dirección y Producción -digo en desorden porque no es el orden en el cual se realizan las actividades....-",
+        "line_four" : "Los que siguen son todos Proyectos que tengo preparados, en diferentes etapas de Producción..."
+    },
+    "samples_page" :
+    {
+        "line_one" : "Así como tengo Proyectos en distintas etapas de desarrollo también tengo Muestras que se pueden compartir...",
+        "line_two" : "Esto sirve para sumar a la parte de Presentación, para dar a conocer acerca de los estilos con los cuales se trabaja...",
+        "line_three" : "Algo muy particular dentro de la Industria Audiovisual es que podemos elegir qué hacer y qué no hacer...",
+        "line_four" : "En mi caso hay Géneros que no trabajo porque no son lo mío..."
+    },
+    "data_page" :
+    {
+        "line_one" : "Esta es una parte que resume un poco todo lo que hay en una sola carpeta de presentación...",
+        "line_two" : "Contiene Minibio, My Work, Proyectos, Muestras, Certificados de Registro y Contacto",
+        "line_three" : "Está en formato digital... Aunque no lo creas, mi Arte va sobre muchos papeles pero si puedo no imprimir no lo hago...",
+        "line_four" : "Espero que te guste lo que vas a encontrar... Tené en cuenta que periódicamente actualizo todo esto así que siempre está cambiando..."
+    },
+    "data_list" : 
+    [        
+        {
+            "id" : 1,
+            "file" : "https://drive.google.com/file/d/1lpywaVuL8xI4EzuGmQbzRVXH3J0is_ka/view?usp=share_link",
+            "register" : "2020"
+        },
+        {
+            "id" : 2,
+            "file" : "https://drive.google.com/file/d/1_i-hLzu-huEvFLUxwPnP7wmDMb0cUGEL/view?usp=share_link",
+            "register" : "2020"
+        },
+        {
+            "id" : 3,
+            "file" : "https://drive.google.com/file/d/1b6wXbGPhEF1-c__VQ-FpvlUL0oCulEgk/view?usp=share_link",
+            "register" : "2020"
+        }
+    ],
+    "feedback_intro" :
+    {
+        "line_one" : "En una presentación de las convencionales podrías encontrar algo como Referencias...",
+        "line_two" : "Yo no tengo... No existe tampoco para alguien de esta Industria...",
+        "line_three" : "En su reemplazo cuento con más documentos que se conocen como Feedbacks...",
+        "subtitle" : "Si hacés click en cada tarjeta podrías ver quienes son...",
+        "paragraph" : "Eso es lo valioso de cada feedback..."
+    },
+    "saying" :
+    [
+        {
+            "id" : 1,
+            "fullname" : "Andrew W. Marlowe",
+            "holding" : "Creative",
+            "photo": "https://images.pexels.com/photos/15011879/pexels-photo-15011879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "feedback" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "link" : "https://www.imdb.com"
+        },
+        {
+            "id" : 2,
+            "fullname" : "Jason Schwartzman",
+            "holding" : "Actor / Producer",
+            "photo": "https://images.pexels.com/photos/15011881/pexels-photo-15011881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "feedback" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "link" : "https://www.imdb.com"
+        },
+        {
+            "id" : 3,
+            "fullname" : "Mitchell Block",
+            "holding" : "Creative",
+            "photo": "https://images.pexels.com/photos/15011880/pexels-photo-15011880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "feedback" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "link" : "https://www.imdb.com"            
+        },
+        {
+            "id" : 4,
+            "fullname" : "Thomas Waters",
+            "holding" : "Actor / Producer",
+            "photo": "https://images.pexels.com/photos/15011882/pexels-photo-15011882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "feedback" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "link" : "https://www.imdb.com"            
+        }
+    ], 
+    "quotes_intro" :
+    {
+        "line_one" : "Entonces... para cerrar esta brevísima introducción a la historia de mi vida...",
+        "line_two" : "Te dejo algunas frases de la Industria Audiovisual que me gustan...",
+        "line_three" : "Espero que te gusten también y que hayas podido conocerme..."
+    },
+    "quotes" :
+    [
+        {
+            "id" : 1,
+            "icon" : "fa-solid fa-feather-pointed",
+            "one" : "\"Si tienes un sueño, debes conservarlo.",
+            "two" : "Si quieres algo sal a buscarlo, y punto.\"",
+            "author" :"Chris Gardner",
+            "credit" :"En busca de la Felicidad"
+        },
+        {
+            "id" : 2,
+            "icon" : "fa-solid fa-feather-pointed fa-2x",
+            "one" : "\"Si tienes un sueño, debes conservarlo.",
+            "two" : "Si quieres algo sal a buscarlo, y punto.\"",
+            "author" :"Chris Gardner",
+            "credit" :"En busca de la Felicidad"
+        },
+        {
+            "id" : 3,
+            "icon" : "fa-solid fa-feather-pointed fa-2x",
+            "one" : "\"Si tienes un sueño, debes conservarlo.",
+            "two" : "Si quieres algo sal a buscarlo, y punto.\"",
+            "author" :"Chris Gardner",
+            "credit" :"En busca de la Felicidad"
+        }
+    ],
+    "closing" :
+    {
+        "line_one" : "Si querés trabajar conmigo podés contactarme...",
+        "line_two" : "Al alcance de unos pocos clicks, estoy en las redes sociales...",
+        "line_three" : "Gracias por visitarme!!!",
+        "icon" : "fa-solid fa-signature"
+    },
+    "music" :
+    {
+        "song" : "Synapse",
+        "author" : "佐空 saku. | beats",
+        "icon" : "fa-brands fa-soundcloud",
+        "link" : "https://soundcloud.com/notsaku",
+        "track" : "./../../../assets/audio/synapse.mp3"
+    },
+    "credits" :
+    {
+        "title" : "Point of View",
+        "type" : "Portfolio Creativo",
+        "based" : "Basado en una historia real",
+        "saying" : "Dicen de mí...",
+        "thanks" : "Agradecimientos",
+        "made" : "Hecho con",
+        "more" : "Y muchísimas",
+        "copyright" :"fa-regular fa-copyright",
+        "register" : "2022"
+    },
+    "single_credits" : 
+    [
+        {
+            "id" : 1,
+            "feedback" : "Gabi! Amiga y compañera en #YoProgramo. La cantidad de estudiantes que te esperamos en cada Meet. Tantas cosas que hicimos y pasamos en este tiempo! Sos una persona muy bondadosa y responsable. Siempre dispuesta a ayudar. Gracias por todo lo que me enseñaste y aprendí a tu lado. Que la vida de devuelva el doble de lo que nos brindaste",
+            "name" : "Cintia Lorena Necol - YoProgramo 3era Edición"
+        },
+        {
+            "id" : 2,
+            "feedback" : "No me queda sino decirte wow! quedó espectacular, y el tema de la accesibilidad estuve jugando así que me gustó. Es un excelente trabajo el que has hecho y es sólo un reflejo de la calidad de persona y profesional que eres. No me queda sino agradecerte por tu tiempo y a donde vaya siempre programatk será un ejemplo de aprendizaje y trabajo en equipo. Obvio, sin olvidar como GoCode nos ha dado la oportunidad de hacer algunos proyectos.",
+            "name" : "Marie Meléndez - YoProgramo 3era Edición"
+        },
+        {
+            "id" : 3,
+            "feedback" : "Una persona admirable en todos los sentidos. Transmite y enseña divirtiéndose. Me ayudó muchísimo no solo a mi, sino también a todos mis compañeros, sin ella hubiera sido muy difícil como para no decir imposible seguir con el proyecto. Una vocación y corazón enorme",
+            "name" : "Nicolás Angeletti - YoProgramo 3era Edición"
+        },
+        {
+            "id" : 4,
+            "feedback" : "Líder nata, pocas personas he conocido que se echen todo un equipo al hombro y mantengan la calma y la buena onda, siempre respetuosa y cuidadosa de conservar un ambiente íntegro de estudio que si bien descontracturado (porque nunca faltó el humor) siempre preservó el compañerismo, el orden y sobre todo el respeto para que nadie pudiese sentirse tocado o maltratado en ningún sentido, basto conocimiento de herramientas de programación y una gran capacidad para transmitirlos, resaltó más que cualquier cosa el constante apoyo a cada persona del equipo sin importar que tan atrás estuviese de la meta, buena actitud ante las dificiltades, paciencia y amor por lo que hace, incluido el amor por su familia, la delicadeza en el trato con los seres que la rodean, mil gracias Gaby. Dios te recompense",
+            "name" : "Margarita Durango - YoProgramo 3era Edición"
+        }
+
+    ],
+    "double_credits" : 
+    [
+        {
+            "id" : 1,
+            "feedback" : "Inmensa capacidad de creación, convocatoria, liderazgo y movilización. Muchas gracias por tu dedicación y por motivar + ayudar a miles de estudiantes hasta lograrlo! Tu trabajo quedará por siempre en las habilidades que adquirimos!.",
+            "name" : "Laura Álvarez - YoProgramo 3era Edición"
+        },
+        {
+            "id" : 2,
+            "feedback" : "Por tu dedicación, tu estrategia, tu idea colectiva, tu generosidad, por eso -entre otras muchas bondades- fuimos muchos los entusiasmados en seguir con el “código”. Muchas gracias y adelante con tu proyecto: lindisimo, completo, diverso y rico!",
+            "name" : "Celina Jure - YoProgramo 3era Edición"
+        },
+        {
+            "id" : 3,
+            "feedback" : "Sos una gran persona con sabiduría. Podés ayudar e incluso enseñar a quien lo necesite,  ya sea en lo laboral como anímicamente. Te hace alguien admirable. Estoy en deuda porque me has ayudado como a tantos más y a los que vienen detrás!!! Gracias por tanto Gaby!!!",
+            "name" : "Walter Rafael Giménez - YoProgramo 3era Edición"
+        },
+        {
+            "id" : 4,
+            "feedback" : "Gracias y mil gracias por todo lo que nos brindás siempre, por estar y apoyarnos siempre, por hacernos entender que podíamos y tomarte el tiempo para explicarnos en cada momento, sos una persona única y con muy grandes valores.",
+            "name" : "Jesica Dabos - YoProgramo 3ra Edición"
+        },
+        {
+            "id" : 5,
+            "feedback" : "Gabi, quiero saludarte y felicitarte principalmente  por tu compromiso con la causa de la educación que hoy nos une. Ojalá que hagamos de la programacion un arte digno de orgullo. Te abrazo fuerte digitalmente y tal vez algún día en persona. Gracias!",
+            "name" : "Mariano d'Hiriart - YoProgramo 3era Edición"
+        },
+        {
+            "id" : 6,
+            "feedback" : "Quisiera agradecerte todo el tiempo que te tomaste y te seguís tomando para explicarnos y ayudarnos. Lo que vos creaste no lo había visto nunca. Sos 100% colaborativa!!!",
+            "name" : "Roxana Palacio - YoProgramo 3era Edición"
+        }
+    ],
+    "triple_credits" : 
+    [
+
+        {
+            "id" : 1,
+            "feedback" : "Hermoso trabajo, ejemplo a seguir, demuestra que con constancia y dedicación se puede lograr lo propuesto, dejar volar la imaginación puede llegar a sorprendernos.",
+            "name" : "Denis Karina Gómez Ramírez - YoProgramo 3era Edición"
+        },
+        {
+            "id" : 2,
+            "feedback" : "Eres una mujer que ama lo que hace, pone todo su empeño en hacer lo que se propone, no se queda con una sola cosa. Sabes de todo un poco y compartes tus conocimientos sin esperar nada a cambio",
+            "name" : "Josman Pérez - YoProgramo 3era Edición"
+        },
+        {
+            "id" : 3,
+            "feedback" : "Gabriela es una líder, cuando se propone hacer algo lo hace. Es incondicional a la hora de ayudar y eso es digno de admirar",
+            "name" : "Lenin Quintero - YoProgramo 3era Edición"
+        }
+    ],
+    "thanks" : 
+    [
+        {
+            "id" : 1,
+            "to_thank" : "A mi mamá, María",
+            "because" : "Por haberme dado todo lo que estuvo a su alcance y más, muchísimo más."
+        },
+        {
+            "id" : 2,
+            "to_thank" : "A mis hermosos hijos",
+            "because" : "Porque sin las horas, días y semanas que me tuvieron con poca disponibilidad esto no podría haberse hecho."
+        },
+        {
+            "id" : 3,
+            "to_thank" : "A mi Tío Rodolfo Q.E.P.D.",
+            "because" : "Por haberme mostrado cuánto vale el educar a los hijos en valores."
+        },
+        {
+            "id" : 4,
+            "to_thank" : "A la Bibliotecaria Cora Céspedes Q.E.P.D.",
+            "because" : "Por haberme enseñado que a los niños no se los debe condicionar al momento de elegir cómo dejar volar su imaginación con los libros."
+        }
+    ],
+    "made" : 
+    [
+        {
+            "id" : 1,
+            "icon" : "fa-brands fa-html5",
+            "tool" : "HTML"
+        },
+        {
+            "id" : 2,
+            "icon" : "fa-brands fa-bootstrap",
+            "tool" : "Bootstrap"
+        },
+        {
+            "id" : 3,
+            "icon" : "fa-brands fa-java",
+            "tool" : "Java"
+        },
+        {
+            "id" : 4,
+            "icon" : "fa-brands fa-css3-alt",
+            "tool" : "CSS"
+        },
+        {
+            "id" : 5,
+            "icon" : "fa-brands fa-angular",
+            "tool" : "Angular"
+        },
+        {
+            "id" : 6,
+            "icon" : "fa-solid fa-leaf",
+            "tool" : "SpringBoot"
+        },
+        {
+            "id" : 7,
+            "icon" : "fa-solid fa-font-awesome",
+            "tool" : "Fontawesome"
+        },
+        {
+            "id" : 8,
+            "icon" : "fa-solid fa-database",
+            "tool" : "Base de Datos"
+        },
+        {
+            "id" : 9,
+            "icon" : "fa-brands fa-github",
+            "tool" : "GitHub"
+        }
+    ],
+    "more" : 
+    [
+        {
+            "id" : 1,
+            "icon" : "fa-solid fa-comments",
+            "thing" : "Opiniones"
+        },
+        {
+            "id" : 2,
+            "icon" : "fa-solid fa-book",
+            "thing" : "Lecturas"
+        },
+        {
+            "id" : 3,
+            "icon" : "fa-solid fa-clock",
+            "thing" : "Horas"
+        }
+    ],
+    "blooper_credits" :
+    {
+        "see" : "¿Ya viste los bloopers?",
+        "icon" : "fa-solid fa-bug",
+        "closing" : "Dale click al ícono que está al pie..."
+    },
+    "bloopers" :
+    {
+        "thanks" : "¡¡¡Muchas gracias por haberme visitado!!!",
+        "signature" : "fa-solid fa-signature",
+        "register" : "2022"
+    },
+    "line_bloopers" :
+    [
+        {
+            "id" : 1,
+            "line_one" : "Hay que reconocer",
+            "line_two" : "que no se es perfecto..."
+        },
+        {
+            "id" : 2,
+            "line_one" : "Todo lo que puede fallar",
+            "line_two" : "falla"
+        },
+        {
+            "id" : 3,
+            "line_one" : "No será frustrante",
+            "line_two" : "decían..."
+        },
+        {
+            "id" : 4,
+            "line_one" : "Tomate un descanso",
+            "line_two" : "vas a ver que es sencillo"
+        },
+        {
+            "id" : 5,
+            "line_one" : "Es cuestión de dedicarle tiempo...",
+            "line_two" : "más tiempo?"
+        },
+        {
+            "id" : 6,
+            "line_one" : "¡¡¡Pero no te des por vencida!!!",
+            "line_two" : "Hasta en ruso busqué respuestas... (no es broma)"
+        },
+        {
+            "id" : 7,
+            "line_one" : "No es por escasez de memoria mía...",
+            "line_two" : "Creo que ya estoy quemada..."
+        },
+        {
+            "id" : 8,
+            "line_one" : "Siempre hay que estar atento a todo...",
+            "line_two" : "O escribir sin espacios entre palabras..."
+        },
+        {
+            "id" : 9,
+            "line_one" : "La vida es un carnaval",
+            "line_two" : "Por eso, ¡¡¡no hay que llorar!!!"
+        },
+        {
+            "id" : 10,
+            "line_one" : "A imposible conmigo",
+            "line_two" : "¡¡¡le están sobrando dos letras!!!"
+        },
+        {
+            "id" : 11,
+            "line_one" : "Yo pude",
+            "line_two" : "¡¡¡Vos también podés!!!"
+        }
+    ],
+    "icon_bloopers" :
+    [
+        {
+            "id" : 1,
+            "blooper" : "Estuve casi dos semanas sin encontrarle la vuelta al routing de Angular...",
+            "mistake" : "Al final era parecido a las rutas de CodeIgniter 4",
+            "icon" : "fa-solid fa-route"
+        },
+        {
+            "id" : 2,
+            "blooper" : "Al llegar a Java estuve no solo días sino más de un mes tratando de entender algo...",
+            "mistake" : "Creo que en ningún momento supe cómo buscar las cosas o posiblemente no sabía qué debía buscar...",
+            "icon" : "fa-solid fa-burst"
+        },
+        {
+            "id" : 3,
+            "blooper" : "Todo bien con Stackoverflow... Jamás voy a entender cómo es que a algunos les funciona eso de preguntar cosas...",
+            "mistake" : "Me quedo con GitHub y Codepen que son más amigables...",
+            "icon" : "fa-brands fa-stack-overflow"    
+        },
+        {
+            "id" : 4,
+            "blooper" : "Cerca de diez días pasé intentando saber cómo era el tema de rutas dinámicas con slug...",
+            "mistake" : "Me dí por vencida... Me ganó Angular...",
+            "icon" : "fa-solid fa-pause"   
+        },
+        {
+            "id" : 5,
+            "blooper" : "¿Pueden creer que no recuerdo un tema importante de Base de Datos que era eliminación lógica?",
+            "mistake" : "Me parece que SQL y yo no nos estamos llevando del todo bien últimamente...",
+            "icon" : "fa-solid fa-xmark"    
+        },
+        {
+            "id" : 6,
+            "blooper" : "NetBeans... Delicado NetBeans... Lo quiero tanto como lo detesto... Creo que no existe nada más sensible que NetBeans...",
+            "mistake" : "Horas estuve demorada por un espacio... Sí por un espacio...",
+            "icon" : "fa-solid fa-calendar"    
+        },
+        {
+            "id" : 7,
+            "blooper" : "Es posible que muchos ya lo sepan... Yo no sé JS... No lo puse en los créditos...",
+            "mistake" : "En su reemplazo utilicé CSS3 para hacer animaciones...",
+            "icon" : "fa-solid fa-box-tissue"    
+        }
+    ],
+    "intro" :
+    {
+        "overview" : "En el mundo",
+        "industry" : "IT",
+        "history" : "esta es mi historia...",
+        "line_one" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!",
+        "line_two" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis modi porro natus aspernatur, velit officia sit nihil amet? Cum iure cupiditate beatae illo!"
+    },
+    "developer_profile" :
+    {
+        "icon" : "fa-solid fa-feather-pointed",
+        "title" : "Sobre mí",
+        "overview" : "Mi nombre es",
+        "fullname" : "Gabriela García de la Mata",
+        "line_one" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio maxime voluptatum, suscipit, molestias repellendus perspiciatis!",
+        "photo" : "https://images.pexels.com/photos/15435771/pexels-photo-15435771.jpeg",
+        "phrase_one" : "\"Si tienes un sueño, debes conservarlo.",
+        "phrase_two" : "Si quieres algo sal a buscarlo, y punto.\"",
+        "author" : "Chris Gardner",
+        "credit" : "En busca de la Felicidad"
+    },
+    "sections" :
+    [
+        {
+            "id" : 1,
+            "icon" :"fa-solid fa-feather-pointed",
+            "title" : "Sobre mí"
+        },        
+        {
+            "id" : 2,
+            "icon" :"fa-solid fa-graduation-cap",
+            "title" : "Estudié y lo sigo haciendo..."
+        },
+        {
+            "id" : 3,
+            "icon" :"fa-solid fa-wrench",
+            "title" : "Trabajos que hice y hago..."
+        },
+        {
+            "id" : 4,
+            "icon" :"fa-solid fa-code",
+            "title" : "Proyectos que tengo..."
+        },
+        {
+            "id" : 5,
+            "icon" :"fa-solid fa-cogs",
+            "title" : "Habilidades con las que cuento..."
+        },
+        {
+            "id" : 6,
+            "icon" :"fa-solid fa-earth-americas",
+            "title" : "Idiomas que más domino..."
+        },
+        {
+            "id" : 7,
+            "icon" :"fa-solid fa-star",
+            "title" : "Cosas que me gustan..."
+        },
+        {
+            "id" : 8,
+            "icon" :"fa-solid fa-comments",
+            "title" : "Dicen de mí..."
+        },
+        {
+            "id" : 9,
+            "icon" : "fa-solid fa-info",
+            "title" : "Info para ponernos en contacto..."
+        }    
+    ],
+    "icons" :
+    [
+        {
+            "id" : 1,
+            "icon" : "fa-solid fa-video"
+        },
+        {
+            "id" : 2,
+            "icon" : "fa-solid fa-code-compare"
+        },
+        {
+            "id" : 3,
+            "icon" : "fa-solid fa-angle-left"
+        },
+        {
+            "id" : 4,
+            "icon" : "fa-solid fa-chevron-up"
+        },
+        {
+            "id" : 5,
+            "icon" : "fa-solid fa-chevron-down"
+        },
+        {
+            "id" : 6,
+            "icon" : "fa-solid fa-lock"
+        },
+        {
+            "id" : 7,
+            "icon" : "fa-solid fa-lock-open"
+        },
+        {
+            "id" : 8,
+            "icon" : "fa fa-plus"
+        },
+        {
+            "id" : 9,
+            "icon" : "fa-solid fa-angles-right"
+        },
+        {
+            "id" : 10,
+            "icon" : "fa-solid fa-angles-left"
+        },
+        {
+            "id" : 11,
+            "icon" : "fa-solid fa-route"
+        },
+        {
+            "id" : 12,
+            "icon" : "fa-solid fa-eye"
+        },
+        {
+            "id" : 13,
+            "icon" : "fa-solid fa-comment"
+        }
+    ],
+    "studies" :
+    [
+        {
+            "id" : 1,
+            "image" : "https://images.pexels.com/photos/15435735/pexels-photo-15435735.png",
+            "title" : "Título",
+            "institution" : "Institución",
+            "start_date" : "Inicio",
+            "end_date" : "Fin"
+        },
+        {
+            "id" : 2,
+            "image" : "https://images.pexels.com/photos/15435736/pexels-photo-15435736.png",
+            "title" : "Título",
+            "institution" : "Institución",
+            "start_date" : "Inicio",
+            "end_date" : "Fin"
+        },
+        {
+            "id" : 3,
+            "image" : "https://images.pexels.com/photos/15435740/pexels-photo-15435740.png",
+            "title" : "Título",
+            "institution" : "Institución",
+            "start_date" : "Inicio",
+            "end_date" : "Fin"
+        }
+    ],
+    "experiences" :
+    [
+        {
+            "id" : 1,
+            "image" : "https://images.pexels.com/photos/15435742/pexels-photo-15435742.png",
+            "position" : "Puesto",
+            "place" : "Lugar",
+            "start_date" : "Inicio",
+            "end_date" : "Fin",
+            "description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "task_one" : "An item este item",
+            "task_two" : "A second item",
+            "task_three" : "A third item"     
+        },
+        {
+            "id" : 2,
+            "image" : "https://images.pexels.com/photos/15435741/pexels-photo-15435741.png",
+            "position" : "Puesto",
+            "place" : "Lugar",
+            "start_date" : "Inicio",
+            "end_date" : "Fin",
+            "description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "task_one" : "An item este item",
+            "task_two" : "A second item",
+            "task_three" : "A third item"     
+        },
+        {
+            "id" : 3,
+            "image" : "https://images.pexels.com/photos/15435740/pexels-photo-15435740.png",
+            "position" : "Puesto",
+            "place" : "Lugar",
+            "start_date" : "Inicio",
+            "end_date" : "Fin",
+            "description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "task_one" : "An item este item",
+            "task_two" : "A second item",
+            "task_three" : "A third item"     
+        }
+    ],
+    "developer_projects" :
+    [
+        {
+            "id" : 1,
+            "image" : "https://images.pexels.com/photos/15435738/pexels-photo-15435738.png",
+            "title" : "Título",
+            "description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "link" : "https://github.com"
+        },
+        {
+            "id" : 2,
+            "image" : "https://images.pexels.com/photos/15435737/pexels-photo-15435737.png",
+            "title" : "Título",
+            "description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "link" : "https://github.com"
+        },
+        {
+            "id" : 3,
+            "image" : "https://images.pexels.com/photos/15435740/pexels-photo-15435740.png",
+            "title" : "Título",
+            "description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "link" : "https://github.com"
+        },
+        {
+            "id" : 4,
+            "image" : "https://images.pexels.com/photos/15435735/pexels-photo-15435735.png",
+            "title" : "Título",
+            "description" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "link" : "https://github.com"
+        }
+    ],
+    "technicals" :
+    [
+        {
+            "id" : 1,
+            "progress" : "progress-95",
+            "icon" : "fa-brands fa-html5",
+            "technology" : "HTML",
+            "percentage" : 95
+        },
+        {
+            "id" : 2,
+            "progress" : "progress-95",
+            "icon" : "fa-brands fa-bootstrap",
+            "technology" : "Bootstrap",
+            "percentage" : 95
+        },
+        {
+            "id" : 3,
+            "progress" : "progress-60",
+            "icon" : "fa-brands fa-java",
+            "technology" : "Java",
+            "percentage" : 60
+        },
+        {
+            "id" : 4,
+            "progress" : "progress-85",
+            "icon" : "fa-brands fa-css3",
+            "technology" : "CSS",
+            "percentage" : 85
+        },
+        {
+            "id" : 5,
+            "progress" : "progress-85",
+            "icon" : "fa-brands fa-angular",
+            "technology" : "Angular",
+            "percentage" : 85
+        },
+        {
+            "id" : 6,
+            "progress" : "progress-70",
+            "icon" : "fa-solid fa-leaf",
+            "technology" : "SpringBoot",
+            "percentage" : 70
+        },
+        {
+            "id" : 7,
+            "progress" : "progress-30",
+            "icon" : "fa-brands fa-js-square",
+            "technology" : "JavaScript",
+            "percentage" : 30
+        },
+        {
+            "id" : 8,
+            "progress" : "progress-90",
+            "icon" : "fa-solid fa-database",
+            "technology" : "Base de Datos",
+            "percentage" : 90
+        },
+        {
+            "id" : 9,
+            "progress" : "progress-90",
+            "icon" : "fa-brands fa-github",
+            "technology" : "GitHub",
+            "percentage" : 90
+        }
+    ],
+    "softs" :
+    [
+        {
+            "id" : 1,
+            "soft" : "Liderazgo",
+            "percentage" : 90
+        },
+        {
+            "id" : 2,
+            "soft" : "Innovación",
+            "percentage" : 95
+        },
+        {
+            "id" : 3,
+            "soft" : "Colaboratividad",
+            "percentage" : 75
+        },
+        {
+            "id" : 4,
+            "soft" : "Toma de Decisiones",
+            "percentage" : 80
+        },
+        {
+            "id" : 5,
+            "soft" : "Análisis Cuantitativo",
+            "percentage" : 85
+        },
+        {
+            "id" : 6,
+            "soft" : "Creatividad",
+            "percentage" : 95
+        }
+    ],
+    "languages" :
+    [
+        {
+            "id" : 1,
+            "language" : "Inglés",
+            "level" : "B1",
+            "percentage" : 75
+        },
+        {
+            "id" : 2,
+            "language" : "Francés",
+            "level" : "C1",
+            "percentage" : 95
+        }
+    ],
+    "hobbies" :
+    [
+        {
+            "id" : 1,
+            "icon" : "fa-solid fa-feather-pointed",
+            "description" : "Escribir"
+        },
+        {
+            "id" : 2,
+            "icon" : "fa-solid fa-book",
+            "description" : "Leer"
+        },
+        {
+            "id" : 3,
+            "icon" : "fa-solid fa-film",
+            "description" : "Cine"
+        },
+        {
+            "id" : 4,
+            "icon" : "fa-solid fa-glasses",
+            "description" : "Aprender"
+        },
+        {
+            "id" : 5,
+            "icon" : "fa-solid fa-earth-americas",
+            "description" : "Idiomas"
+        },
+        {
+            "id" : 6,
+            "icon" : "fa-solid fa-train",
+            "description" : "Viajar"
+        },
+        {
+            "id" : 7,
+            "icon" : "fa-solid fa-chess-queen",
+            "description" : "Ajedrez"
+        },
+        {
+            "id" : 8,
+            "icon" : "fa-solid fa-volleyball",
+            "description" : "Volley"
+        },
+        {
+            "id" : 9,
+            "icon" : "fa-solid fa-person-biking",
+            "description" : "Bici"
+        }
+    ],
+    "comments" :
+    [
+        {
+            "id" : 1,
+            "icon" : "fa-regular fa-comment",
+            "one" : "\"Si tienes un sueño, debes conservarlo.",
+            "two" :"Si quieres algo sal a buscarlo, y punto.\"",
+            "fullname" : "Chris Gardner",
+            "position" : "En busca de la Felicidad"
+        },
+        {
+            "id" : 2,
+            "icon" : "fa-regular fa-comment",
+            "one" : "\"Si tienes un sueño, debes conservarlo.",
+            "two" :"Si quieres algo sal a buscarlo, y punto.\"",
+            "fullname" : "Chris Gardner",
+            "position" : "En busca de la Felicidad"
+        },
+        {
+            "id" : 3,
+            "icon" : "fa-regular fa-comment",
+            "one" : "\"Si tienes un sueño, debes conservarlo.",
+            "two" :"Si quieres algo sal a buscarlo, y punto.\"",
+            "fullname" : "Chris Gardner",
+            "position" : "En busca de la Felicidad"
+        }
+    ],
+    "contact" :
+    {
+        "icon_phone" : "fa-solid fa-phone",
+        "phone" : 5492342546373,
+        "icon_email" : "fa-solid fa-envelope",
+        "email" : "info@gocode.ar",
+        "icon_availability" : "fa-solid fa-user-clock",
+        "availability" : "Availability"
+    },
+    "developer_cv" :
+    {
+        "line_one" : "De esto tengo",
+        "line_two" : "una versión más corta",
+        "line_three" : "para...",
+        "line_four" : "Imprimir ó Descargar",
+        "first_icon" : "fa-solid fa-download",
+        "line_five" : "Pero, por favor, si no es necesario",
+        "second_icon" : "fa-solid fa-leaf",
+        "line_six" : "no la imprimas"
+    },
+    "general" :
+    [
+        {
+            "id" : 1,
+            "icon" : "fa-solid fa-check",
+            "section" : "Brand",
+            "target" : "brandModal"
+        },
+        {
+            "id" : 2,
+            "icon" : "fa-solid fa-images",
+            "section" : "Banners",
+            "target" : "bannersModal"
+        },
+        {
+            "id" : 3,
+            "icon" : "fa-solid fa-share-nodes",
+            "section" : "Social",
+            "target" : "socialModal"
+        },
+        {
+            "id" : 4,
+            "icon" : "fa-solid fa-layer-group",
+            "section" : "Sections",
+            "target" : "sectionsModal"
+        },
+        {
+            "id" : 5,
+            "icon" : "fa-solid fa-pen-to-square",
+            "section" : "Forms",
+            "target" : "formsModal"
+        },
+        {
+            "id" : 6,
+            "icon" : "fa-solid fa-life-ring",
+            "section" : "Helpers",
+            "target" : "helpersModal"
+        },
+        {
+            "id" : 7,
+            "icon" : "fa-solid fa-grip",
+            "section" : "Buttons",
+            "target" : "buttonsModal"
+        },
+        {
+            "id" : 8,
+            "icon" : "fa-solid fa-comments",
+            "section" : "Credits",
+            "target" : "creditsModal"
+        },
+        {
+            "id" : 9,
+            "icon" : "fa-solid fa-bug",
+            "section" : "Bloopers",
+            "target" : "bloopersModal"
+        }
+    ], 
+    "audiovisual" :
+    [
+        {
+            "id" : 1,
+            "icon" : "fa-solid fa-align-center",
+            "section" : "Cover",
+            "target" : "audiovisualCoverModal"
+        },
+        {
+            "id" : 2,
+            "icon" : "fa-solid fa-user",
+            "section" : "Perfil",
+            "target" : "audiovisualProfileModal"
+        },
+        {
+            "id" : 3,
+            "icon" : "fa-solid fa-file-lines",
+            "section" : "Divisores",
+            "target" : "audiovisualDivisorsModal"
+        },
+        {
+            "id" : 4,
+            "icon" : "fa-solid fa-file",
+            "section" : "Presentación",
+            "target" : "audiovisualPresentationModal"
+        },
+        {
+            "id" : 5,
+            "icon" : "fa-solid fa-film",
+            "section" : "Proyectos",
+            "target" : "audiovisualProjectsModal"
+        },
+        {
+            "id" : 6,
+            "icon" : "fa-solid fa-link",
+            "section" : "Links",
+            "target" : "audiovisualLinksModal"
+        },
+        {
+            "id" : 7,
+            "icon" : "fa-solid fa-signature",
+            "section" : "Feedback",
+            "target" : "audiovisualFeedbackModal"
+        },
+        {
+            "id" : 8,
+            "icon" : "fa-solid fa-quote-right",
+            "section" : "Quotes",
+            "target" : "audiovisualQuotesModal"
+        },
+        {
+            "id" : 9,
+            "icon" : "fa-solid fa-stop",
+            "section" : "Closing",
+            "target" : "audiovisualClosingModal"
+        }
+    ],
+    "developer" :
+    [
+        {
+            "id" : 1,
+            "icon" : "fa-solid fa-align-center",
+            "section" : "Intro",
+            "target" : "developerIntroModal"
+        },
+        {
+            "id" : 2,
+            "icon" : "fa-solid fa-user",
+            "section" : "Perfil",
+            "target" : "developerProfileModal"
+        },
+        {
+            "id" : 3,
+            "icon" : "fa-solid fa-code",
+            "section" : "Proyectos",
+            "target" : "developerProjectsModal"
+        },
+        {
+            "id" : 4,
+            "icon" : "fa-solid fa-graduation-cap",
+            "section" : "Educación",
+            "target" : "developerEducationModal"
+        },
+        {
+            "id" : 5,
+            "icon" : "fa-solid fa-wrench",
+            "section" : "Experiencia",
+            "target" : "developerExperienceModal"
+        },
+        {
+            "id" : 6,
+            "icon" : "fa-solid fa-cogs",
+            "section" : "Skills",
+            "target" : "developerSkillsModal"
+        },
+        {
+            "id" : 7,
+            "icon" : "fa-solid fa-star",
+            "section" : "Hobbies",
+            "target" : "developerHobbiesModal"
+        },
+        {
+            "id" : 8,
+            "icon" : "fa-solid fa-comment",
+            "section" : "Comentarios",
+            "target" : "developerCommentsModal"
+        },
+        {
+            "id" : 9,
+            "icon" : "fa-solid fa-file",
+            "section" : "CV",
+            "target" : "developerCVModal"
+        }
+    ],
+    "logout" : 
+    {
+        "icon" : "fa-solid fa-circle-exclamation",
+        "text" : "Por favor, confirma que quieres cerrar la sesión."
+    }
+}

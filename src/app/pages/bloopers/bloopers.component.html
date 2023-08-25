@@ -1,0 +1,69 @@
+<audio [src]="music.track" autoplay="autoplay"></audio>
+
+<section class="background bloopers">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg d-flex justify-content-between container-fluid bg-black">
+        <app-white-brand></app-white-brand>
+        <app-white-session></app-white-session>
+    </nav>
+
+    <!-- Redes -->
+    <app-white-general></app-white-general>
+
+    <!-- Bloopers -->
+    <div class="wrapper bg-black text-white">
+        <div class='credit'>
+            <div class="row mb-5 pb-5">
+                <div class='title text-700'>
+                    {{line_bloopers[0].line_one}}
+                    <br>
+                    {{line_bloopers[0].line_two}}
+                </div>
+            </div>
+            <div class='feedback text-700 mt-5 pt-5'>
+                {{line_bloopers[1].line_one}}
+                <br>
+                {{line_bloopers[1].line_two}}
+            </div>
+            <app-audiovisual-bloopers></app-audiovisual-bloopers>
+            <div class='feedback text-700 mt-5 pt-5'>
+                {{line_bloopers[8].line_one}}
+                <br>
+                {{line_bloopers[8].line_two}}
+            </div>
+            <div class="silence"></div>
+            <div class='feedback text-700 mt-5 pt-5'>
+                {{line_bloopers[9].line_one}} 
+                <br>
+                {{line_bloopers[9].line_two}}
+            </div>
+            <div class="silence"></div>
+            <div class='feedback text-700 mt-5 pt-5'>
+                {{line_bloopers[10].line_one}} 
+                <br>
+                {{line_bloopers[10].line_two}}
+            </div>
+            <div class="cut"></div>
+            <div class="row mt-5 pt-5 mb-5 pb-5">
+                <div class="bloopers">
+                    <div class='feedback text-700 mt-5 pt-5'>
+                        {{bloopers.thanks}}
+                    </div>
+                    <div class="col-12">
+                        <div class='quote'>
+                            <span><i [class]="bloopers.signature" class="fa-3x text-white"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="end_date"></div>
+            <div class='name text-uppercase pb-5'><i class="fa-regular fa-copyright text-700"></i> {{bloopers.register}}</div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer d-flex justify-content-between container-fluid bg-black">
+        <app-white-back></app-white-back>
+        <app-white-footer-plus></app-white-footer-plus>
+    </footer>
+</section>

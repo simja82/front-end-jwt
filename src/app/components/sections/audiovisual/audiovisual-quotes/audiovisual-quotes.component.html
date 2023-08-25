@@ -1,0 +1,27 @@
+<section class="quotes d-flex justify-content-center w-75 m-auto text-center mb-5">
+    <div class="container">
+        <h3 class="d-flex justify-content-center"><span class="text-orange text-center mb-3">Quotes</span></h3>                                    
+        <h6>
+            {{quotes_intro.line_one}}
+            <br><br>
+            {{quotes_intro.line_two}}
+            <br><br>    
+            {{quotes_intro.line_three}}
+        </h6>
+    </div>        
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div *ngFor="let quote of quotes" class="col-12 mt-2 mb-1">
+                <div class="card">
+                    <h4 class="d-flex justify-content-center mt-4"><i [class]="quote.icon" class="fa-2x"></i></h4>                                                                     
+                    <div class="text-center mb-2">
+                        <span class="text-center">{{quote.one}}<br>{{quote.two}}<br><i>{{quote.author}}</i><br>{{quote.credit}}</span>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

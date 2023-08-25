@@ -1,0 +1,62 @@
+    <!-- Modal Edit Audiovisual Feedback Intro -->
+    <div class="modal fade" id="editIntroAudiovisualFeedbackModal" aria-hidden="true" aria-labelledby="editIntroAudiovisualFeedbackModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="editIntroAudiovisualFeedbackModal">Editar Intro Feedback</h1>
+                    <i class="fa-solid fa-rotate-left" data-bs-target="#audiovisualFeedbackModal" data-bs-toggle="modal" aria-label="Volver" (click)="onReset()"></i>
+                </div>
+                <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                    <div class="form-group">
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="line_one" class="form-label">{{forms[17].value}} {{forms[18].value}}</label>
+                                    <input type="text" class="form-control" id="line_one" placeholder="Línea Uno" formControlName="line_one" [ngClass]="{ 'is-invalid': submitted && f['line_one'].errors, 'is-valid': !f['line_one'].errors && f['line_one'].touched }">
+                                    <div id="lineOneHelp" class="form-text">{{helpers[17].value}}</div>
+                                    <div *ngIf="submitted && f['line_one'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['line_one'].errors['required']">Es preciso ingresar la primera línea</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-3">
+                                    <label for="line_two" class="form-label">{{forms[17].value}} {{forms[19].value}}</label>
+                                    <input type="text" class="form-control" id="line_two" placeholder="Línea Dos" formControlName="line_two" [ngClass]="{ 'is-invalid': submitted && f['line_two'].errors, 'is-valid': !f['line_two'].errors && f['line_two'].touched }">
+                                    <div id="lineTwoHelp" class="form-text">{{helpers[17].value}}</div>
+                                    <div *ngIf="submitted && f['line_two'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['line_two'].errors['required']">Es preciso ingresar la segunda línea</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-3">
+                                    <label for="line_three" class="form-label">{{forms[17].value}} {{forms[20].value}}</label>
+                                    <input type="text" class="form-control" id="line_three" placeholder="Línea Tres" formControlName="line_three" [ngClass]="{ 'is-invalid': submitted && f['line_three'].errors, 'is-valid': !f['line_three'].errors && f['line_three'].touched }">
+                                    <div id="lineThreeHelp" class="form-text">{{helpers[17].value}}</div>
+                                    <div *ngIf="submitted && f['line_three'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['line_three'].errors['required']">Es preciso ingresar la tercera línea</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-3">
+                                    <label for="subtitle" class="form-label">{{forms[8].value}}</label>
+                                    <input type="text" class="form-control" id="subtitle" placeholder="Subtítulo" formControlName="subtitle" [ngClass]="{ 'is-invalid': submitted && f['subtitle'].errors, 'is-valid': !f['subtitle'].errors && f['subtitle'].touched }">
+                                    <div id="subtitleHelp" class="form-text">{{helpers[8].value}}</div>
+                                    <div *ngIf="submitted && f['subtitle'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['subtitle'].errors['required']">Es preciso ingresar un subtítulo</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-3">
+                                    <label for="paragraph" class="form-label">{{forms[39].value}}</label>
+                                    <input type="text" class="form-control" id="paragraph" placeholder="Párrafo" formControlName="paragraph" [ngClass]="{ 'is-invalid': submitted && f['paragraph'].errors, 'is-valid': !f['paragraph'].errors && f['paragraph'].touched }">
+                                    <div id="paragraphHelp" class="form-text">{{helpers[30].value}}</div>
+                                    <div *ngIf="submitted && f['paragraph'].errors" class="invalid-feedback">
+                                        <div *ngIf="f['paragraph'].errors['required']">Es preciso ingresar un párrafo</div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-black-mini" data-bs-target="#audiovisualFeedbackModal" data-bs-toggle="modal" aria-label="Actualizar">{{buttons[13].value}}</button>
+                        </div>    
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,35 @@
+<div class="modal fade" id="workModal" tabindex="-1" aria-labelledby="workModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="text-center">{{mywork.title}}</h4>
+                            <div class="card">
+                                <div class="card-body">      
+                                    <p class="card-text">{{mywork.paragraph_one}}</p>
+                                    <p class="card-text">{{mywork.paragraph_two}}</p>
+                                    <p class="card-text">{{mywork.paragraph_three}}</p>
+                                    <p class="card-text">{{mywork.paragraph_four}}</p>
+                                    <p class="card-text">{{mywork.paragraph_five}}</p>
+                                    <p class="card-text">{{mywork.paragraph_six}}</p>
+                                    <p class="card-text">{{mywork.paragraph_seven}}</p>
+                                </div>
+                                <div class="d-flex justify-content-center mb-3">
+                                    <a [href]="mywork.document" target="_blank" class="btn btn-black-mini" download="My Work.pdf"><i class="fa-solid fa-download"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-black-mini" data-bs-dismiss="modal" aria-label="Cerrar">{{buttons[7].value}}</button>
+            </div>
+        </div>
+    </div>
+</div>

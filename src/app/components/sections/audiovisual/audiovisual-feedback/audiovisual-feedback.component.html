@@ -1,0 +1,39 @@
+<section class="feedback d-flex justify-content-center w-75 m-auto text-center">
+    <div class="container">
+        <h3 class="d-flex justify-content-center"><span class="text-orange text-center mb-3">Feedbacks</span></h3>                                    
+        <h6>
+            {{feedback_intro.line_one}} 
+            <br><br>
+            {{feedback_intro.line_two}}
+            <br><br>    
+            {{feedback_intro.line_three}} 
+        </h6>
+    </div>        
+</section>
+
+<section>
+    <div class="container mt-2 pt-5 pb-2 w-75 m-auto d-flex justify-content-between">      
+        <div class="container text-center">
+            <div class="row g-2">
+                <!-- Start Say -->
+                <div *ngFor="let say of saying" class="col-6 col-sm-12 col-md-6 col-lg-6">
+                    <a [href]="say.link" target="_blank">
+                        <div class="card">
+                            <div class="card-body d-flex justify-content-center">      
+                                <img [src]="say.photo" class="rounded-circle w-50 mb-2">
+                            </div> 
+                            <div class="card-body">
+                                <p class="card-text">{{say.feedback}}</p>
+                                <h6>{{say.fullname}}</h6>
+                                <h6>{{say.holding}}</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Say -->
+            </div>
+        </div>
+    </div>  
+    <h5 class="w-75 text-center m-auto pt-4 mb-2">{{feedback_intro.subtitle}}</h5>
+    <p class="w-75 text-center m-auto mb-2">{{feedback_intro.paragraph}}</p>
+</section>

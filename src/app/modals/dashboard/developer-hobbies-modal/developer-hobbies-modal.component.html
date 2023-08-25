@@ -1,0 +1,40 @@
+    <!-- Modal Hobbies -->
+    <div class="modal fade" id="developerHobbiesModal" tabindex="-1" aria-labelledby="developerHobbiesModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="developerHobbiesModalLabel">Hobbies</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="card mb-3">
+                        <div class="row g-4">
+                            <div *ngFor="let hobby of hobbies" class="col-4 mt-4">
+                                <div class="text-center">
+                                    <h6><i [class]="hobby.icon" class="fa-3x mt-4 pt-s"></i></h6>
+                                    <h6 class="mt-1">{{hobby.description}}</h6>       
+                                    <div class="d-flex justify-content-center my-3">
+                                        <button class="btn btn-black-extra-mini mx-1" data-bs-target="#editDeveloperHobbyModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                                        <button class="btn btn-black-extra-mini mx-1" data-bs-target="#deleteDeveloperHobbyModal" data-bs-toggle="modal"><i class="fa-solid fa-trash"></i></button>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <hr class="w-75 my-2 m-auto">
+                <div class="d-flex justify-content-center my-2">
+                    <button class="btn btn-black-extra-mini" data-bs-target="#createDeveloperHobbyModal" data-bs-toggle="modal" aria-label="Create"><i class="fa-solid fa-circle-plus"></i></button>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-black-mini" data-bs-dismiss="modal" aria-label="Cerrar">{{buttons[7].value}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CRUD Modals -->
+    <app-create-developer-hobby-modal></app-create-developer-hobby-modal>
+    <app-edit-developer-hobby-modal></app-edit-developer-hobby-modal>
+    <app-delete-developer-hobby-modal></app-delete-developer-hobby-modal>
+    

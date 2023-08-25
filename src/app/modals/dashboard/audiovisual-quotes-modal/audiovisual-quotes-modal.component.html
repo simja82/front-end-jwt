@@ -1,0 +1,66 @@
+<!-- Modal Quotes -->
+<div class="modal fade" id="audiovisualQuotesModal" tabindex="-1" aria-labelledby="audiovisualQuotesModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="audiovisualModalLabel">Quotes</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">  
+                                    <div class="container text-center">
+                                        <h4 class="d-flex justify-content-center"><span class="text-orange text-center mb-3">Quotes</span></h4>
+                                        <p>
+                                            {{quotes_intro.line_one}}
+                                            <br><br>
+                                            {{quotes_intro.line_two}}
+                                            <br><br>    
+                                            {{quotes_intro.line_three}}
+                                        </p>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mt-3 mb-3">
+                                <button class="btn btn-black-extra-mini" data-bs-target="#editIntroAudiovisualQuotesModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div *ngFor="let quote of quotes" class="col-12 mb-3">
+                            <div class="card">
+                                <h4 class="d-flex justify-content-center mt-4"><i [class]="quote.icon" class="fa-2x"></i></h4>                                                                     
+                                <div class="text-center mb-4">
+                                    <span class="text-center">{{quote.one}}<br>{{quote.two}}<br><i>{{quote.author}}</i><br>{{quote.credit}}</span>    
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mt-3">
+                                <button class="btn btn-black-extra-mini mx-1" data-bs-target="#editAudiovisualQuoteModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-black-extra-mini mx-1" data-bs-target="#deleteAudiovisualQuoteModal" data-bs-toggle="modal"><i class="fa-solid fa-trash"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="w-75 m-auto">
+            <div class="d-flex justify-content-center my-3">
+                <button class="btn btn-black-extra-mini" data-bs-target="#createAudiovisualQuoteModal" data-bs-toggle="modal"><i class="fa-solid fa-circle-plus"></i></button>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-black-mini" data-bs-dismiss="modal" aria-label="Cerrar">{{buttons[7].value}}</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CRUD Modals -->
+<app-edit-intro-audiovisual-quotes-modal></app-edit-intro-audiovisual-quotes-modal>
+<app-create-audiovisual-quote-modal></app-create-audiovisual-quote-modal>
+<app-edit-audiovisual-quote-modal></app-edit-audiovisual-quote-modal>
+<app-delete-audiovisual-quote-modal></app-delete-audiovisual-quote-modal>
+

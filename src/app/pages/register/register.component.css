@@ -1,0 +1,12 @@
+html {
+	overflow: hidden;
+}
+
+.text-bg-light {
+	opacity: 0.9;
+}
+
+.card.text-bg-light.text-center {
+	top: -2rem;
+}
+

@@ -1,0 +1,132 @@
+    <!-- Modal Profile -->
+    <div class="modal fade" id="developerProfileModal" tabindex="-1" aria-labelledby="developerProfileModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="developerProfileModalLabel">Perfil</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <h3 class="d-flex justify-content-center mt-4"><i class="fa-solid fa-feather-pointed"></i> <span class="text-orange text-center ms-3"> Sobre mí</span></h3> <!--  [class]="title[0].icon" {{section[0].title}}  -->
+                                    <h4 class="text-center my-3">{{developer_profile.overview}}</h4>
+                                    <h2 class="text-orange text-center">{{developer_profile.fullname}}</h2>
+                                    <p class="w-75 text-center m-auto mb-2">{{developer_profile.line_one}}</p>
+                                    <div class="card-body d-flex justify-content-center">      
+                                        <img [src]="developer_profile.photo" class="rounded-circle w-25 mb-2">
+                                    </div>      
+                                    <div class="text-center mb-4">
+                                        <span class="text-center">{{developer_profile.phrase_one}}<br>{{developer_profile.phrase_two}}<br><i>{{developer_profile.author}}</i><br>{{developer_profile.credit}}</span>    
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button class="btn btn-black-extra-mini" data-bs-target="#editDeveloperProfileModal" data-bs-toggle="modal"  (click)="profile_data.id? loadProfile(): null"><i class="fa-solid fa-pencil"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-black-mini" data-bs-dismiss="modal" aria-label="Cerrar">{{close_button.value}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Edit Developer Profile -->
+    <div class="modal fade" id="editDeveloperProfileModal" aria-hidden="true" aria-labelledby="editDeveloperProfileModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="editDeveloperProfileModal">Editar Perfil</h1>
+                    <i class="fa-solid fa-rotate-left" data-bs-target="#developerProfileModal" data-bs-toggle="modal" aria-label="Volver" (click)="onReset()"></i>
+                </div>
+                <form [formGroup]="form">
+                    <input type="hidden" name="" id="id">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12 pt-3">
+                                <label for="overview" class="form-label">{{overview_form.value}}</label>
+                                <input type="text" class="form-control" id="overview" formControlName="overview" [ngClass]="{ 'is-invalid': InvalidOverview, 'is-valid': ValidOverview }">
+                                <div id="overviewHelp" class="form-text">{{overview_helper.value}}</div>
+                                <div *ngIf="Overview?.errors" class="invalid-feedback">
+                                    <div *ngIf="Overview?.hasError('required')">Es preciso ingresar una apertura</div>
+                                </div>
+                            </div>
+                            <div class="col-12 pt-3">
+                                <label for="fullname" class="form-label">{{fullname_form.value}}</label>
+                                <input type="text" class="form-control" id="fullname" formControlName="fullname" [ngClass]="{ 'is-invalid': InvalidFullname, 'is-valid': ValidFullname }">
+                                <div id="fullnameHelp" class="form-text">{{fullname_helper.value}}</div>
+                                <div *ngIf="Fullname?.errors" class="invalid-feedback">
+                                    <div *ngIf="Fullname?.hasError('required')">Es preciso ingresar el nombre completo</div>
+                                </div>
+                            </div>
+                            <div class="col-12 pt-3">          
+                                <label for="line_one" class="form-label">{{line_one_form.value}}</label>
+                                <textarea class="form-control" id="line_one" rows="1" formControlName="line_one" [ngClass]="{ 'is-invalid': InvalidLineOne, 'is-valid': ValidLineOne }"></textarea>
+                                <div class="d-flex justify-content-between">
+                                    <div id="lineOneHelp" class="form-text">{{line_one_helper.value}}</div>
+                                    <div id="limitHelp" class="form-text">{{max_100_helper.value}}</div>
+                                </div> 
+                                <div *ngIf="LineOne?.errors" class="invalid-feedback">
+                                    <div *ngIf="LineOne?.hasError('required')">Es preciso ingresar un texto de introducción</div>
+                                </div>
+                            </div>
+                            <div class="col-12 pt-3">
+                                <label for="photo" class="form-label">{{photo_form.value}}</label>
+                                <input type="text" class="form-control" id="photo" formControlName="photo" [ngClass]="{ 'is-invalid': InvalidPhoto, 'is-valid': ValidPhoto }">
+                                <div id="photoHelp" class="form-text">{{photo_helper.value}}</div>
+                                <div *ngIf="Photo?.errors" class="invalid-feedback">
+                                    <div *ngIf="Photo?.hasError('required')">Es preciso ingresar una foto de perfil</div>
+                                </div>
+                            </div>
+                            <div class="col-12 pt-3">
+                                <label for="phraseOne" class="form-label">{{phrase_form.value}} {{one_form.value}}</label>
+                                <textarea class="form-control" id="phrase_one" rows="1" formControlName="phrase_one" [ngClass]="{ 'is-invalid': InvalidPhraseOne, 'is-valid': ValidPhraseOne }"></textarea>
+                                <div class="d-flex justify-content-between">
+                                    <div id="phraseOneHelp" class="form-text">{{phrase_helper.value}}</div>
+                                    <div id="limitHelp" class="form-text">{{max_100_helper.value}}</div>
+                                </div> 
+                                <div *ngIf="PhraseOne?.errors" class="invalid-feedback">
+                                    <div *ngIf="PhraseOne?.hasError('required')">Es preciso ingresar la primera línea de la frase</div>
+                                </div>
+                            </div>
+                            <div class="col-12 pt-3">          
+                                <label for="phraseTwo" class="form-label">{{phrase_form.value}} {{two_form.value}}</label>
+                                <textarea class="form-control" id="phrase_two" rows="1" formControlName="phrase_two" [ngClass]="{ 'is-invalid': InvalidPhraseTwo, 'is-valid': ValidPhraseTwo }"></textarea>
+                                <div class="d-flex justify-content-between">
+                                    <div id="phraseTwoHelp" class="form-text">{{phrase_helper.value}}</div>
+                                    <div id="limitHelp" class="form-text">{{max_100_helper.value}}</div>
+                                </div> 
+                                <div *ngIf="PhraseTwo?.errors" class="invalid-feedback">
+                                    <div *ngIf="PhraseTwo?.hasError('required')">Es preciso ingresar la segunda línea de la frase</div>
+                                </div>
+                            </div>
+                            <div class="col-6 pt-3">
+                                <label for="author" class="form-label">{{author_form.value}}</label>
+                                <input type="text" class="form-control" id="author" formControlName="author" [ngClass]="{ 'is-invalid': InvalidAuthor, 'is-valid': ValidAuthor }">
+                                <div id="authorHelp" class="form-text">{{author_helper.value}}</div>
+                                <div *ngIf="Author?.errors" class="invalid-feedback">
+                                    <div *ngIf="Author?.hasError('required')">Es preciso ingresar un autor</div>
+                                </div>
+                            </div>
+                            <div class="col-6 pt-3">
+                                <label for="credit" class="form-label">{{credit_form.value}}</label>
+                                <input type="text" class="form-control" id="credit" formControlName="credit" [ngClass]="{ 'is-invalid': InvalidCredit, 'is-valid': ValidCredit }">
+                                <div id="creditHelp" class="form-text">{{credit_helper.value}}</div>
+                                <div *ngIf="Credit?.errors" class="invalid-feedback">
+                                    <div *ngIf="Credit?.hasError('required')">Es preciso ingresar un crédito</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-black-mini" (click)="saveDeveloperProfile()" data-bs-target="#developerProfileModal" data-bs-toggle="modal" aria-label="Guardar">{{save_button.value}}</button>
+                    </div>    
+                </form>
+            </div>
+        </div>
+    </div>

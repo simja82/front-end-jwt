@@ -1,0 +1,55 @@
+<section class="background" [ngStyle]="{'background-image': 'url(' + login.image + ')'}" title="Login">  
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg d-flex justify-content-between container-fluid">
+        <app-white-brand></app-white-brand>
+        <app-white-session></app-white-session>
+    </nav>
+
+   <!-- Plus -->
+   <div class="position-absolute top-50 start-0 translate-middle-y ms-4 d-flex align-items-center">
+        <a class="plus" [attr.data-tooltip]="login.description">
+            <app-white-plus></app-white-plus>
+        </a>   
+    </div>
+
+    <!-- Form Login -->
+    <div class="col-8 m-auto section-top">
+        <div class="card text-bg-light text-center">
+            <div class="card-header">Login</div>
+            <div class="card-body col-10 m-auto pb-4 mt-1">
+                <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                    <div class="form-group mb-3">
+                        <label for="inputUsername" class="form-label">{{forms[66].value}}</label>
+                        <input type="username" class="form-control" id="inputUsername" aria-describedby="usernameHelp" formControlName="username" [ngClass]="{ 'is-invalid': submitted && f['username'].errors, 'is-valid': !f['username'].errors && f['username'].touched }">
+                        <div id="usernameHelp" class="form-text">{{helpers[60].value}}</div>
+                        <div *ngIf="submitted && f['username'].errors" class="invalid-feedback">
+                            <div *ngIf="f['username'].errors['required']">Debes ingresar un nombre de usuario</div>
+                            <div *ngIf="f['username'].errors['username']">El nombre de usuario ingresado ya está en uso</div>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="inputPassword" class="form-label">{{forms[1].value}}</label>
+                        <input type="password" class="form-control" id="inputPassword" formControlName="password" [ngClass]="{ 'is-invalid': submitted && f['password'].errors, 'is-valid': !f['password'].errors && f['password'].touched  }">
+                        <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
+                            <div *ngIf="f['password'].errors['required']">Debes ingresar una contraseña</div>
+                            <div *ngIf="f['password'].errors['minlength']">La contraseña debe tener un mínimo de 8 caracteres</div>
+                            <div *ngIf="f['password'].errors['maxlength']">La contraseña no debe tener más de 20 caracteres</div>
+                        </div>
+                    </div>  
+                    <button type="submit" class="btn btn-outline-dark btn-width">{{buttons[0].value}}</button>
+                </form>
+                <div id="registerHelp" class="form-text mt-4">{{helpers[1].value}} <a routerLink="/register">Registrate.</a></div>
+            </div>
+        </div>            
+    </div>
+
+    <!-- Redes -->
+    <app-white-general></app-white-general>
+    
+    <!-- Footer -->
+    <footer class="footer d-flex justify-content-between container-fluid">
+        <app-white-back></app-white-back>
+        <app-white-fast-forward></app-white-fast-forward>
+    </footer>
+</section>

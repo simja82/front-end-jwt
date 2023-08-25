@@ -1,0 +1,136 @@
+    <!-- Modal Presentation -->
+    <div class="modal fade" id="audiovisualPresentationModal" tabindex="-1" aria-labelledby="audiovisualPresentationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="audiovisualPresentationModalLabel">Presentación</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-body">  
+                                        <h4 class="d-flex justify-content-center"><span class="text-orange text-center mb-3"> {{audiovisual_presentation.title}}</span></h4>
+                                        <p class="w-75 text-center m-auto mb-3">
+                                            {{audiovisual_presentation.line_one}} 
+                                            <br><br>
+                                            {{audiovisual_presentation.line_two}}
+                                            <br><br>
+                                            {{audiovisual_presentation.line_three}}
+                                        </p>
+                                        <div class="container mt-2 pt-5 pb-2 w-75 m-auto">
+                                            <div class="row d-flex justify-content-center">
+                                                <div class="col-4 text-center">
+                                                    <i [class]="audiovisual_presentation.minibio_icon" class="fa-3x mb-3"></i>
+                                                    <h4>{{audiovisual_presentation.minibio_text}}</h4>
+                                                </div>
+                                                <div class="col-4 text-center">
+                                                    <i [class]="audiovisual_presentation.mywork_icon" class="fa-3x mb-3"></i>
+                                                    <h4>{{audiovisual_presentation.mywork_text}}</h4>
+                                                </div>
+                                                <div class="col-4 text-center">
+                                                    <i [class]="audiovisual_presentation.iwant_icon" class="fa-3x mb-3"></i>
+                                                    <h4>{{audiovisual_presentation.iwant_text}}</h4>
+                                                </div>
+                                            </div>     
+                                        </div>   
+                                        <h6 class="w-75 text-center m-auto pt-4 mb-2">{{audiovisual_presentation.subtitle}}</h6>
+                                        <p class="w-75 text-center m-auto mb-2">{{audiovisual_presentation.paragraph}}</p>                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3">
+                        <button class="btn btn-black-extra-mini" data-bs-target="#editAudiovisualPresentationModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                    </div>
+                    <hr class="w-75 m-auto mt-3 pb-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h4 class="text-center">{{minibio.title}}</h4>
+                                <div class="card">
+                                    <div class="card-body">      
+                                        <p class="card-text">{{minibio.paragraph_one}}</p>
+                                        <p class="card-text">{{minibio.paragraph_two}}</p>
+                                        <p class="card-text">{{minibio.paragraph_three}}</p>
+                                        <p class="card-text">{{minibio.paragraph_four}}</p>
+                                        <p class="card-text">{{minibio.paragraph_five}}</p>
+                                        <p class="card-text">{{minibio.paragraph_six}}</p>
+                                        <p class="card-text">{{minibio.paragraph_seven}}</p>
+                                    </div>
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <button class="btn btn-black-mini"><i class="fa-solid fa-download"></i></button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button class="btn btn-black-extra-mini" data-bs-target="#editAudiovisualMinibioModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="w-75 m-auto mt-3 pb-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h4 class="text-center">{{mywork.title}}</h4>
+                                <div class="card">
+                                    <div class="card-body">      
+                                        <p class="card-text">{{mywork.paragraph_one}}</p>
+                                        <p class="card-text">{{mywork.paragraph_two}}</p>
+                                        <p class="card-text">{{mywork.paragraph_three}}</p>
+                                        <p class="card-text">{{mywork.paragraph_four}}</p>
+                                        <p class="card-text">{{mywork.paragraph_five}}</p>
+                                        <p class="card-text">{{mywork.paragraph_six}}</p>
+                                        <p class="card-text">{{mywork.paragraph_seven}}</p>
+                                    </div>
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <button class="btn btn-black-mini"><i class="fa-solid fa-download"></i></button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button class="btn btn-black-extra-mini" data-bs-target="#editAudiovisualWorkModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="w-75 m-auto mt-3 pb-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h4 class="text-center">{{iwant.title}}</h4>
+                                <div class="card">
+                                    <div class="card-body">      
+                                        <p class="card-text">{{iwant.paragraph_one}}</p>
+                                        <p class="card-text">{{iwant.paragraph_two}}</p>
+                                        <p class="card-text">{{iwant.paragraph_three}}</p>
+                                        <p class="card-text">{{iwant.paragraph_four}}</p>
+                                        <p class="card-text">{{iwant.paragraph_five}}</p>
+                                        <p class="card-text">{{iwant.paragraph_six}}</p>
+                                        <p class="card-text">{{iwant.paragraph_seven}}</p>
+                                    </div>
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <button class="btn btn-black-mini"><i class="fa-solid fa-download"></i></button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button class="btn btn-black-extra-mini" data-bs-target="#editAudiovisualWantModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-black-mini" data-bs-dismiss="modal" aria-label="Cerrar">{{buttons[7].value}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- CRUD Modals -->
+    <app-edit-audiovisual-presentation-modal></app-edit-audiovisual-presentation-modal>
+    <app-edit-audiovisual-minibio-modal></app-edit-audiovisual-minibio-modal>
+    <app-edit-audiovisual-work-modal></app-edit-audiovisual-work-modal>
+    <app-edit-audiovisual-want-modal></app-edit-audiovisual-want-modal>

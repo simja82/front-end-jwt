@@ -1,0 +1,27 @@
+<section class="general">
+    <!-- General -->
+    <div class="container text-center">
+        <div class="row">
+            <h3 class="col justify-content-center d-flex"><b>{{title}}</b></h3>
+        </div>
+        <div class="row pt-4">
+            <div *ngFor="let button of general" class="col-6 col-md-3 col-lg-4 pb-5">
+                <button type="button" class="btn btn-black" data-bs-toggle="modal" [attr.data-bs-target]="'#'+button.target">
+                    <i [class]="button.icon" class="fa-2x text-white"></i>
+                </button>
+                <h5 class="mt-3">{{button.section}}</h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Overview Modals -->
+<app-brand-modal></app-brand-modal>
+<app-banners-modal></app-banners-modal>
+<app-social-modal></app-social-modal>
+<app-sections-modal></app-sections-modal>
+<app-forms-modal></app-forms-modal>
+<app-helpers-modal></app-helpers-modal>
+<app-buttons-modal></app-buttons-modal>
+<app-credits-modal></app-credits-modal>
+<app-bloopers-modal></app-bloopers-modal>

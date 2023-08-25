@@ -1,0 +1,36 @@
+<section class="background" [ngStyle]="{'background-image': 'url(' + banners[2].image + ')'}">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg d-flex justify-content-between container-fluid">
+        <app-black-brand></app-black-brand>
+        <app-black-session></app-black-session>
+    </nav>
+
+    <!-- Plus -->
+    <div class="position-absolute top-50 start-0 translate-middle-y ms-4 d-flex align-items-center">
+        <a class="plus" [attr.data-tooltip]="banners[2].description">
+            <app-black-plus></app-black-plus>
+        </a>         
+    </div>
+
+    <!-- Enlace -->
+    <div class="text-center pt-5">
+        <div class="col-12 mt-5 pt-5 mb-4">
+            <h1 class="hero mt-5 pt-3">{{banners[2].hero}}</h1>
+        </div>
+        <div class="col-12 mb-5">
+            <h4 class="hero">{{banners[2].subhero}}</h4>
+        </div>
+        <a routerLink="/">
+            <button type="button" class="btn btn-outline-black btn-lg">{{buttons[1].value}}</button>
+        </a>         
+    </div>
+
+    <!-- Redes -->
+    <app-black-general></app-black-general>
+
+    <!-- Footer -->
+    <footer class="footer d-flex justify-content-between container-fluid">
+        <app-black-back></app-black-back>
+        <app-black-fast-forward></app-black-fast-forward>
+    </footer>
+</section>

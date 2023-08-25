@@ -1,0 +1,168 @@
+    <!--Modal Credits-->
+    <div class="modal fade" id="creditsModal" tabindex="-1" aria-labelledby="creditsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="creditsModalLabel">Credits</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center"> 
+                        <div class="row pt-3 pb-3">
+                            <h4 class='text-700'>{{credits.title}}</h4>
+                            <div class="col-12">
+                                <blockquote class='text-700'>{{credits.type}}</blockquote>
+                                <h6 class='text-700'>{{credits.based}}</h6>
+                                <div class='text-uppercase pb-3'><i class="fa-regular fa-copyright text-700"></i> {{credits.register}}</div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button class="btn btn-black-extra-mini mx-2" data-bs-target="#editTitleCreditModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="w-75 m-auto my-3">    
+                    <h5 class="text-center mt-2">{{credits.saying}}</h5>
+                    <div *ngFor="let credit of single_credits" class="single-credit">
+                        <h6 class="text-center mt-4 mx-5">{{credit.feedback}}</h6>
+                        <p class="mx-5 text-center">{{credit.name}}</p>
+                        <div class="d-flex justify-content-center mt-2 mb-3">
+                            <button class="btn btn-black-extra-mini mx-2" data-bs-target="#editSingleCreditModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                            <button class="btn btn-black-extra-mini mx-2" data-bs-target="#deleteSingleCreditModal" data-bs-toggle="modal"><i class="fa-solid fa-trash"></i></button>
+                        </div>    
+                    </div>
+                    <hr class="w-75 m-auto my-3">                       
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-black-extra-mini" data-bs-target="#createSingleCreditModal" data-bs-toggle="modal"><i class="fa-solid fa-circle-plus"></i></button>
+                    </div>
+                    <div class="container">
+                        <div class="row mt-5">
+                            <div *ngFor="let credit of double_credits" class="col-6">
+                                <h6 class="text-center mt-4">{{credit.feedback}}</h6>
+                                <p class="mx-5 text-center">{{credit.name}}</p>
+                                <div class="d-flex justify-content-center my-3">
+                                    <button class="btn btn-black-extra-mini mx-2" data-bs-target="#editDoubleCreditModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                                    <button class="btn btn-black-extra-mini mx-2" data-bs-target="#deleteDoubleCreditModal" data-bs-toggle="modal"><i class="fa-solid fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="w-75 m-auto my-3">                       
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-black-extra-mini" data-bs-target="#createDoubleCreditModal" data-bs-toggle="modal"><i class="fa-solid fa-circle-plus"></i></button>
+                    </div>
+                    <div class="container">
+                        <div class="row mt-5">
+                            <div *ngFor="let credit of triple_credits" class="col-4">
+                                <h6 class="text-center mt-4">{{credit.feedback}}</h6>
+                                <p class="mx-5 text-center">{{credit.name}}</p>
+                                <div class="d-flex justify-content-center mt-1 mb-3">
+                                    <button class="btn btn-black-extra-mini mx-2" data-bs-target="#editTripleCreditModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                                    <button class="btn btn-black-extra-mini mx-2" data-bs-target="#deleteTripleCreditModal" data-bs-toggle="modal"><i class="fa-solid fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="w-75 m-auto my-3">                       
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-black-extra-mini" data-bs-target="#createTripleCreditModal" data-bs-toggle="modal"><i class="fa-solid fa-circle-plus"></i></button>
+                    </div>
+                    <h5 class="text-center mt-5 mb-3">{{credits.thanks}}</h5>
+                    <div *ngFor="let credit of thanks" class="thanks-credits">
+                        <h6 class="text-center mb-2">{{credit.to_thank}}</h6>
+                        <p class="mx-5 text-center">{{credit.because}}</p>
+                        <div class="d-flex justify-content-center mt-2 mb-3">
+                            <button class="btn btn-black-extra-mini mx-2" data-bs-target="#editThanksModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                            <button class="btn btn-black-extra-mini mx-2" data-bs-target="#deleteThanksModal" data-bs-toggle="modal"><i class="fa-solid fa-trash"></i></button>
+                        </div>    
+                    </div>
+                    <hr class="w-75 m-auto my-3">                       
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-black-extra-mini" data-bs-target="#createThanksModal" data-bs-toggle="modal"><i class="fa-solid fa-circle-plus"></i></button>
+                    </div>
+                    <h5 class="text-center mt-5">{{credits.made}}</h5>
+                    <div class="container">
+                        <div class="row mt-2">
+                            <div *ngFor="let technology of made" class="col-4 mt-4">
+                                <h6 class="text-center"><i [class]="technology.icon" class="fa-3x"></i></h6>
+                                <p class="mt-1 mx-5 text-center">{{technology.tool}}</p>
+                                <div class="d-flex justify-content-center mt-1 mb-3">
+                                    <button class="btn btn-black-extra-mini mx-2" data-bs-target="#editMadeModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                                    <button class="btn btn-black-extra-mini mx-2" data-bs-target="#deleteMadeModal" data-bs-toggle="modal"><i class="fa-solid fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="w-75 m-auto my-3">                       
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-black-extra-mini" data-bs-target="#createMadeModal" data-bs-toggle="modal"><i class="fa-solid fa-circle-plus"></i></button>
+                    </div>
+                    <h5 class="text-center mt-5">{{credits.more}}</h5>
+                    <div class="row">
+                        <div *ngFor="let tool of more" class="col-4 mt-3">
+                            <h6 class="text-center"><i [class]="tool.icon" class="fa-3x"></i></h6>
+                            <p class="mt-1 mx-5 text-center">{{tool.thing}}</p>
+                            <div class="d-flex justify-content-center mt-1 mb-3">
+                                <button class="btn btn-black-extra-mini mx-2" data-bs-target="#editMoreModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-black-extra-mini mx-2" data-bs-target="#deleteMoreModal" data-bs-toggle="modal"><i class="fa-solid fa-trash"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="w-75 m-auto my-3">                       
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-black-extra-mini" data-bs-target="#createMoreModal" data-bs-toggle="modal"><i class="fa-solid fa-circle-plus"></i></button>
+                    </div>
+                    <div class="row text-center mt-5">
+                        <h5 class='text-700'>Música</h5>
+                        <div class="col-12 mb-3">
+                            <blockquote class='text-700'>{{music.song}}</blockquote>
+                            <div class='text-uppercase'>{{music.author}}</div>
+                            <span><i [class]="music.icon" class="fa-3x"></i></span>
+                            <br>
+                            <span>{{music.link}}</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-black-extra-mini" data-bs-target="#editMusicCreditModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                    </div>
+                    <div class="row text-center mt-5">
+                        <div class="bloopers">
+                            <h5 class='text-700'>{{blooper_credits.see}}</h5>
+                            <div class="col-12 mb-3">
+                                <span><i [class]="blooper_credits.icon" class="fa-3x"></i></span>
+                                <div class='text-uppercase text-700'>{{blooper_credits.closing}}</div>
+                            </div>                                        
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-black-extra-mini" data-bs-target="#editBloopersCreditModal" data-bs-toggle="modal"><i class="fa-solid fa-pencil"></i></button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-black-mini" data-bs-dismiss="modal" aria-label="Cerrar">{{buttons[7].value}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CRUD Modals's -->
+    <app-edit-title-credit-modal></app-edit-title-credit-modal>
+    <app-create-single-credit-modal></app-create-single-credit-modal>
+    <app-edit-single-credit-modal></app-edit-single-credit-modal>
+    <app-delete-single-credit-modal></app-delete-single-credit-modal>
+    <app-create-double-credit-modal></app-create-double-credit-modal>
+    <app-edit-double-credit-modal></app-edit-double-credit-modal>
+    <app-delete-double-credit-modal></app-delete-double-credit-modal>
+    <app-create-triple-credit-modal></app-create-triple-credit-modal>
+    <app-edit-triple-credit-modal></app-edit-triple-credit-modal>
+    <app-delete-triple-credit-modal></app-delete-triple-credit-modal>
+    <app-create-thanks-modal></app-create-thanks-modal>
+    <app-edit-thanks-modal></app-edit-thanks-modal>
+    <app-delete-thanks-modal></app-delete-thanks-modal>
+    <app-create-made-modal></app-create-made-modal>
+    <app-edit-made-modal></app-edit-made-modal>
+    <app-delete-made-modal></app-delete-made-modal>
+    <app-create-more-modal></app-create-more-modal>
+    <app-edit-more-modal></app-edit-more-modal>
+    <app-delete-more-modal></app-delete-more-modal>
+    <app-edit-music-credit-modal></app-edit-music-credit-modal> 
+    <app-edit-bloopers-credit-modal></app-edit-bloopers-credit-modal>

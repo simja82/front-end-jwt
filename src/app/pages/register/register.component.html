@@ -1,0 +1,79 @@
+<section class="background" [ngStyle]="{'background-image': 'url(' + banners[3].image + ')'}">  
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg d-flex justify-content-between container-fluid">
+        <app-black-brand></app-black-brand>
+        <app-black-session></app-black-session>
+    </nav>
+
+   <!-- Plus -->
+   <div class="position-absolute top-50 start-0 translate-middle-y ms-4 d-flex align-items-center">
+        <a class="plus" [attr.data-tooltip]="banners[3].description">
+            <app-black-plus></app-black-plus>
+        </a>   
+    </div>
+
+    <!-- Enlace -->
+<!--
+    <div class="text-center pt-5">
+        <div class="col-12 mt-5 pt-5 mb-4">
+            <h1 class="hero text-black mt-5 pt-5">{{banners[3].hero}}</h1>
+        </div>
+        <div class="col-12 mb-5">
+            <h4 class="hero text-black">{{banners[3].subhero}}</h4>
+        </div>
+        <a routerLink="/">
+            <button type="button" class="btn btn-outline-black btn-width btn-lg">{{buttons[1].value}}</button>
+        </a>         
+    </div>
+-->
+
+    <!-- Form Register -->
+    <div class="col-8 m-auto section-top">
+        <div class="card text-bg-light text-center">
+            <div class="card-header">Registro</div>
+            <div class="card-body col-10 m-auto pb-4 mt-1">
+                <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                    <div class="form-group mb-3">
+                        <label for="inputUsername" class="form-label">{{forms[66].value}}</label>
+                        <input type="username" class="form-control" id="inputUsername" aria-describedby="usernameHelp" formControlName="username" [ngClass]="{ 'is-invalid': submitted && f['username'].errors, 'is-valid': !f['username'].errors && f['username'].touched }">
+                        <div id="usernameHelp" class="form-text">{{helpers[60].value}}</div>
+                        <div *ngIf="submitted && f['username'].errors" class="invalid-feedback">
+                            <div *ngIf="f['username'].errors['required']">Debes ingresar un nombre de usuario</div>
+                            <div *ngIf="f['username'].errors['username']">El nombre de usuario ingresado ya está en uso</div>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="inputEmail" class="form-label">{{forms[0].value}}</label>
+                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" formControlName="email" [ngClass]="{ 'is-invalid': submitted && f['email'].errors, 'is-valid': !f['email'].errors && f['email'].touched }">
+                        <div id="emailHelp" class="form-text">{{helpers[0].value}}</div>
+                        <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
+                            <div *ngIf="f['email'].errors['required']">Debes ingresar un email</div>
+                            <div *ngIf="f['email'].errors['email']">El email ingresado tiene un error o se encuentra registrado</div>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="inputPassword" class="form-label">{{forms[1].value}}</label>
+                        <input type="password" class="form-control" id="inputPassword" formControlName="password" [ngClass]="{ 'is-invalid': submitted && f['password'].errors, 'is-valid': !f['password'].errors && f['password'].touched  }">
+                        <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
+                            <div *ngIf="f['password'].errors['required']">Debes ingresar una contraseña</div>
+                            <div *ngIf="f['password'].errors['minlength']">La contraseña debe tener un mínimo de 8 caracteres</div>
+                            <div *ngIf="f['password'].errors['maxlength']">La contraseña no debe tener más de 20 caracteres</div>
+                        </div>
+                    </div>  
+                    <button type="submit" class="btn btn-outline-dark btn-width">{{buttons[15].value}}</button>
+                </form>
+                <div id="loginHelp" class="form-text mt-4">{{helpers[67].value}} <a routerLink="/login">Ingresá.</a></div>
+            </div>
+        </div>            
+    </div>
+
+    <!-- Redes -->
+    <app-black-general></app-black-general>
+
+    <!-- Footer -->
+    <footer class="footer d-flex justify-content-between container-fluid">
+        <app-black-back></app-black-back>
+        <app-black-fast-forward></app-black-fast-forward>
+    </footer>
+</section>

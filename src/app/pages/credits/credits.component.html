@@ -1,0 +1,38 @@
+<audio [src]="music.track" autoplay="autoplay"></audio>
+
+<section class="background credits">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg d-flex justify-content-between container-fluid bg-black">
+        <app-white-brand></app-white-brand>
+        <app-white-session></app-white-session>
+    </nav>
+
+    <!-- Redes -->
+    <app-white-general></app-white-general>
+
+    <!--Credits -->
+    <div class="wrapper bg-black text-white">
+        <div class='credit'>
+            <div class="row mb-5 pb-5">
+                <div class='title text-700'>{{credits.title}}</div>
+                <div class="col-12 pb-5">
+                    <div class='quote'>
+                        <blockquote class='text-700'>{{credits.type}}</blockquote>
+                        <h5 class='text-700'>{{credits.based}}</h5>
+                    </div>
+                </div>
+            </div>
+            <div class='feedback text-700'>{{credits.saying}}</div>
+            <div class="container mb-5 pb-5">
+                <app-audiovisual-credits></app-audiovisual-credits>
+                <div class='name text-uppercase pb-5'><i [class]="credits.copyright" class="text-700"></i> {{credits.register}}</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer d-flex justify-content-between container-fluid bg-black">
+        <app-white-back></app-white-back>
+        <app-bug></app-bug>
+    </footer>
+</section>
